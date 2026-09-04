@@ -37,6 +37,8 @@
 | Allokationsregeln v1 | `Allokationsregeln_v1.md` | formalisiert aus Demo/Spec/Pilot/README |
 | 2-Min-Punchline (lokal) | `landing-mock/index.html`, `landing-mock/demo.html` | Desk-OK: Klartext fair vs First-come · §-11-Zeile · Analog · Aid-Satz separat · DE/EN sprachrein · **kein Deploy** |
 | Öffentliche Regeltafel | `Regeltafel_oeffentlich.md` | **neu** — eine Seite, projekt-first DE |
+| Analog-Wireframe + Stub | `Analog_Kanal_Wireframe.md`, `landing-mock/analog.html` | **neu** — Schalter/Proxy/Papier/Offline; lokal, kein Deploy |
+| DS-Fachgespräch Kurzagenda | `Datenschutz_Fachgespraech_Agenda.md` | **neu** — Landes-DS/Behörden-DS, Konzept only |
 | Lagebild-Anschlussmatrix | `Lagebild_Anschlussmatrix.md` | **neu** — Hypothesen BLE-Aggregate ↔ Haushalts-Allokation |
 
 ### A.3 Kanäle & Assets (Ist, Pause gilt)
@@ -70,7 +72,7 @@ Konkrete Lücken — **keine erfundenen Metriken, keine erfundenen Behördenkont
 | 4 | **Pilot ohne Partnerwahl** | Steckbrief hat Kriterien, keine Festlegung Land/LEH; nur nach Fachgespräch | `Pilot_Steckbrief_1_Region.md` |
 | 5 | **Datenschutz: Konzept ≠ AV/DPIA** | Offene Punkte 1–7 in Konzeptskizze (Rechtsgrundlage, Verantwortliche, Fristen) | `Datenschutz_Konzeptskizze_ENV.md` |
 | 6 | **Lagebild-Anschlussmatrix** | Hypothesen-Artefakt lokal; Abgleich erst nach Fachgespräch (kein Claim Produktiv-BLE) | → `Lagebild_Anschlussmatrix.md` · Evidenz §7.2 · Fachfrage 4 |
-| 7 | **Analog-/Proxy-Wireframe fehlt** | Multi-Kanal ist Pflichttext, kein UI-Wireframe | Evidenz §7 Punkt 3; Pilot §5 |
+| 7 | **Analog-/Proxy-Wireframe** | Text-Wireframe + lokaler Stub jetzt da; kein Deploy / keine POS | → `Analog_Kanal_Wireframe.md` · `landing-mock/analog.html` |
 | 8 | **Impressum / Klarname-Risiko** | Live-Impressum laut Verbesserungsnotiz mit Person; Mock hat Platzhalter ohne Klarname | `Landing_Demo_3_Verbesserungen.md` |
 | 9 | **Keine Beauftragung / kein Steuerkreis** | FoodAllo = Gemeinwohl-Konzept; Pilot-Governance nur skizziert | Pilot §7 |
 | 10 | **Open Calls: Narrative/Traction honesty noch nicht final** | MIT Solve / WFP nur Vorbereitung; kein Versand | `OnePager_MIT_Solve_WFP_Vorbereitung.md` |
@@ -162,6 +164,7 @@ David away / PC off — Desk lokal Free only, Publish-Pause, kein Mail, kein X/B
 2. `Pilot_KPI_Messblatt.md` — konkrete Zählregeln Fairness / Wartezeit / Ausschluss / Dubletten / Bestand / Akzeptanz / Datenschutz-Incidents für Übung.
 3. `landing-mock/README.md` — lokal öffnen (Datei-URL + `python3 -m http.server 8765`), Punchline-Checkliste.
 4. GitHub `FoodAllo/foodallo-open-concept` — Docs-Push versucht (siehe Desk-Report); Regeltafel/Allokationsregeln v1 unverändert mitgenommen falls API ok.
+5. `Datenschutz_Fachgespraech_Agenda.md` · `Analog_Kanal_Wireframe.md` · `landing-mock/analog.html` — DS-Kurzagenda (Landes-DS) + Analog-Wireframe/Stub; Lücke §B.7 geschlossen (Konzept, kein Deploy).
 
 **Weiter Montag 19:00:** Sync gegen §E-Fragen; Substanz vor Reichweite.
 
