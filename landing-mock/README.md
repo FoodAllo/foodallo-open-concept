@@ -6,6 +6,7 @@ Free-Tier · kein Paid-Hosting · **kein** grok.me-Deploy ohne Desk-Freigabe · 
 |-------|--------|
 | `index.html` | Hero (Reserve ≠ Allokation), §-11-/AMK-Zeile, Analog-Pflichttext, Demo-Teaser, Prinzipien, FAQ-Gegenargumente, Impressum-Platzhalter ohne Klarname, DE/EN-Toggle |
 | `demo.html` | Interaktive Gast-Demo: **Need-not-influence** vs **First-come** (Caps, Vulnerable-first, Lagerkopplung) |
+| `analog.html` | Plain-DE Stub: Schalter / Proxy / Papiercode / Offline-Kasse — Link zurück zu `demo.html` · kein Deploy |
 
 ## Lokal öffnen (3 Wege)
 
