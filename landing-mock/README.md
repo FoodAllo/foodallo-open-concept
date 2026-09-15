@@ -1,37 +1,44 @@
-# FoodAllo Landing Mock (lokal)
+# FoodAllo Landing / Demo (lokal)
 
-Free-Tier · kein Paid-Hosting · **kein** grok.me-Deploy ohne Desk-Freigabe · kein Klarname · Publish-Pause.
+**Übung / Konzept-Demo · Free only · kein Deploy · kein Klarname · kein Mail · Gemeinwohl**  
+**PDF-Linie:** `Strukturkonzept_ENV_2026.pdf` · Region nicht festgelegt
 
-| Datei | Inhalt |
-|-------|--------|
-| `index.html` | Hero (Reserve ≠ Allokation), §-11-/AMK-Zeile, Analog-Pflichttext, Demo-Teaser, Prinzipien, FAQ-Gegenargumente, Impressum-Platzhalter ohne Klarname, DE/EN-Toggle |
-| `demo.html` | Interaktive Gast-Demo: **Need-not-influence** vs **First-come** (Caps, Vulnerable-first, Lagerkopplung) |
-| `analog.html` | Plain-DE Stub: Schalter / Proxy / Papiercode / Offline-Kasse — Link zurück zu `demo.html` · kein Deploy |
+## Sprachen (UI)
 
-## Lokal öffnen (3 Wege)
+| Code | Sprache | Status |
+|------|---------|--------|
+| DE | Deutsch (Default) | voll (Hero, Demo, Analog) |
+| EN | English | voll |
+| FR | Français | voll (Hero, Demo, Analog); Index unterhalb Hero → EN-Fallback |
+| ES | Español | voll (Hero, Demo, Analog); Index unterhalb Hero → EN-Fallback |
+| UK | Українська | voll (Hero, Demo, Analog); Index unterhalb Hero → EN-Fallback |
 
-**1) Doppelklick / Datei-URL (schnellste Prüfung)**  
-Datei im Browser öffnen:
+Eine Sprache gleichzeitig (`data-lang` + Header-Buttons). Optional: `?lang=fr`.
 
-- `…/foodallo/landing-mock/index.html`
-- `…/foodallo/landing-mock/demo.html`
-
-**2) Mini-HTTP-Server (empfohlen, relative Links sauber)**
-
+## Öffnen
 ```bash
 cd /workspace/foodallo/landing-mock
 python3 -m http.server 8765
 ```
+Dann: http://127.0.0.1:8765/
 
-Dann im Browser: `http://127.0.0.1:8765/` (Hero) und `http://127.0.0.1:8765/demo.html` (Gast-Demo).
+Schock-Preset: http://127.0.0.1:8765/demo.html?preset=markt  
+(auch `#markt`; Default ohne Param: Knappe Woche)
 
-**3) Desk-Review 2-Min-Punchline**  
-Hero → Klartext fair vs First-come · §-11-Zeile · Analog · Aid-Satz separat · DE/EN umschalten · Demo: Mehl 25 kg → Cap 4 kg vs First-come leert Lager.
+## Dateien
+| Datei | Inhalt |
+|-------|--------|
+| `index.html` | Klartext-Hero · 3 Schritte · CTA `demo.html?preset=markt` · DE–UK |
+| `demo.html` | Presets Knappe Woche / Markt gestört · Nach Bedarf vs Wer zuerst kommt · Höchstanteil · Analog · `#esvg11` `#analog-line` `#regeln` `#aid-satz` |
+| `analog.html` | Schalter / Nachbar / Papiercode |
+| `eliminationsmaschine.html` | Premissen P1–P7 (DE/EN wie bisher) |
 
-## Nicht tun
+## Walkthrough
+- `../Crash_Ready_R4_Walkthrough_15min.md` — Sprecher-Skript 15 Min  
+- `../Fachgespraech_Demo_Walkthrough.md` — Fachgespräch  
+- `../Demo_Behoerden_Klartext_2026-09-15.md` — Änderungsprotokoll
 
-- Nicht als Produktiv-Landing verlinken ohne Desk  
-- Kein Mail-CTA, kein Klarname ergänzen  
-- Live-Site grok.me **nicht** eigenmächtig angleichen
-
-Ableitung: `Spec_Landing_Hero_GastDemo.md` · `Copy_Hero_Reserve_Allokation.md` · `Allokationsregeln_v1.md` · `Regeltafel_oeffentlich.md`
+## Crash-ready (lokal)
+1. Hero 30 s → Demo `?preset=markt` → Mode-Toggle → Analog → Aid-Satz  
+2. Optional: Eliminationsmaschine  
+3. Kein Deploy ohne Desk

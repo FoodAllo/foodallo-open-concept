@@ -19,8 +19,15 @@
 | Warehouse / stock caps | Allocate against real availability |
 | Multi-channel | Phone app **and** analog paths (desk, proxy, offline code) |
 
-## Demo
-Interactive wireframe: https://foodallo-food-nonfood-allocation.grok.me/
+## Public demo (Konzept-Demo)
+Interactive guest demo (Übung / concept only — not a live system, no Klarname, Free/Gemeinwohl):
+
+- **Landing:** https://foodallo.github.io/foodallo-open-concept/
+- **Demo (Markt gestört):** https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt
+
+Source copies also under `landing-mock/` and `docs/` (GitHub Pages from `/docs`).
+
+Legacy wireframe (older): https://foodallo-food-nonfood-allocation.grok.me/
 
 ## Public references
 - https://grokipedia.com/page/FoodAllo
@@ -29,7 +36,7 @@ Interactive wireframe: https://foodallo-food-nonfood-allocation.grok.me/
 - https://www.youtube.com/@FoodAllo
 
 ## Status
-Concept / prototype. No claim of operational deployment in conflict zones. Contributions welcome as discussion of rules, accessibility, and privacy — not as a commercial product pitch.
+Konzept-Demo / prototype. No claim of operational deployment, live pilot, or Beauftragung. Contributions welcome as discussion of rules, accessibility, and privacy — not as a commercial product pitch.
 
 ## License note
 Documentation and concept text: intended for public-good reuse. Add a concrete OSS license when code is published.
