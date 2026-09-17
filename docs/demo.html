@@ -353,6 +353,13 @@
     var lq = new URLSearchParams(location.search).get("lang");
     if (lq && I18N[lq]) curLang = lq;
   })();
+    var STOCK_KNAPP = {
+      wheat_flour: 18, rice: 8, oil: 5, water: 400, hygiene: 6, formula: 6, diapers: 4
+    };
+    var STOCK_MARKT = {
+      wheat_flour: 22, rice: 10, oil: 6, water: 420, hygiene: 7, formula: 6, diapers: 4
+    };
+
   STOCK0 = Object.assign({}, scenario === "markt" ? STOCK_MARKT : STOCK_KNAPP);
 
   function t(key) {
