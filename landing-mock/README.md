@@ -1,7 +1,7 @@
 # FoodAllo Landing / Demo (lokal)
 
-**Übung / Konzept-Demo · Free only · kein Deploy · kein Klarname · kein Mail · Gemeinwohl**  
-**PDF-Linie:** `Strukturkonzept_ENV_2026.pdf` · Region nicht festgelegt
+**Übung / Konzept-Demo · Free only · kein Mail · Gemeinwohl**
+**Region:** nicht festgelegt
 
 ## Sprachen (UI)
 
@@ -42,3 +42,8 @@ Schock-Preset: http://127.0.0.1:8765/demo.html?preset=markt
 1. Hero 30 s → Demo `?preset=markt` → Mode-Toggle → Analog → Aid-Satz  
 2. Optional: Eliminationsmaschine  
 3. Kein Deploy ohne Desk
+
+## Branding
+- Header in allen Seiten: `logo-header.png` (transparent, für helle Papierflächen).
+- Browser-Icon: `favicon.png`.
+- Alternative helle Logo-Variante: `logo-header-light.png`.

@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FoodAllo — Gast-Demo · Knappe Woche</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
   <meta name="description" content="Übung: gerechte Anteile nach Bedarf vs. wer zuerst kommt. Konzept-Demo. Gemeinwohl." />
   <meta name="theme-color" content="#F6A959" />
   <style>
@@ -23,7 +24,7 @@
     .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1.25rem; }
     header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.25rem 0; flex-wrap: wrap; }
     .brand { display: flex; align-items: center; gap: .6rem; font-weight: 600; text-decoration: none; color: var(--ink); }
-    .mark { width: 2.25rem; height: 2.25rem; border-radius: .4rem; background: linear-gradient(145deg, var(--primary), var(--olive)); }
+    .logo-img { height: 2rem; width: auto; display: block; }
     .nav { display: flex; align-items: center; gap: .65rem; flex-wrap: wrap; }
     .nav a { font-size: .875rem; color: var(--muted); text-decoration: none; }
     .lang { display: inline-flex; border: 1px solid var(--border); border-radius: .5rem; overflow: hidden; background: var(--card); flex-wrap: wrap; }
@@ -142,7 +143,7 @@
   <a class="skip" href="#demo-main" data-i18n="skip"></a>
   <div class="wrap">
     <header>
-      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span> FoodAllo · <span data-i18n="brand_suffix"></span></a>
+      <a class="brand" href="index.html"><img class="logo-img" src="logo-header.png" alt="FoodAllo" width="156" height="48" /> <span data-i18n="brand_suffix"></span></a>
       <div class="nav">
         <a href="index.html" data-i18n="nav_home"></a>
         <a href="analog.html" data-i18n="nav_analog"></a>
