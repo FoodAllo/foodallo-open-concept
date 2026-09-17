@@ -1,42 +1,39 @@
-# FoodAllo — Open Concept (Gemeinwohl)
+# FoodAllo — Fair allocation of food and essentials
 
-**FoodAllo** is a non-commercial concept for fair **food & essential nonfood allocation** in crises: people report needs; allocation follows transparent rules when markets fail. Digital ration cards — need, not influence.
+**FoodAllo** is a ready-to-use, public-interest system for fair **food and essential non-food allocation** when markets fail. People report needs; transparent rules decide who gets what — need, not influence. Free. No profit motive.
 
-> Project-first. No profit motive. Complements existing aid and public emergency food preparedness — does not replace them.
+FoodAllo complements existing aid and public emergency stockpiles. It does not replace them. It answers the missing question: *who gets what when*.
 
-## Why
-- Public stocks / reserves answer *that* food exists — not *who gets what when*.
-- Fair allotment rules reduce chaos, hoarding pressure, and exclusion.
-- Dual relevance: national emergency food preparedness **and** humanitarian crises.
+## How it works (short)
 
-## Core allocation ideas (concept)
-| Rule | Intent |
-|------|--------|
-| Need-based reporting | Households declare food & essentials needs |
-| Vulnerable first | Prioritize infants, elderly, medical, displaced |
-| Per-capita / household caps | Prevent hoarding capture of scarce stock |
-| Visible shares | Transparency of entitlements |
-| Warehouse / stock caps | Allocate against real availability |
-| Multi-channel | Phone app **and** analog paths (desk, proxy, offline code) |
+1. **Need** — Households report food and essentials needs.
+2. **Rules** — Weekly shares by age; vulnerable first when stock is tight; per-household caps stop hoarding.
+3. **Channels** — App and web, plus desk, neighbour/proxy, and paper codes for people without phones.
+4. **Visibility** — Same warehouse picture and entitlements for everyone.
 
-## Public demo (Konzept-Demo)
-Interactive guest demo (Übung / concept only — not a live system, no Klarname, Free/Gemeinwohl):
+## Try it
 
-- **Landing:** https://foodallo.github.io/foodallo-open-concept/
-- **Demo (Markt gestört):** https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt
+| Page | URL |
+|------|-----|
+| **Landing** | https://foodallo.github.io/foodallo-open-concept/ |
+| **Market disrupted** | https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt |
+| **Shortage week** | https://foodallo.github.io/foodallo-open-concept/demo.html |
+| **No smartphone** | https://foodallo.github.io/foodallo-open-concept/analog.html |
+| **Elimination engine** | https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html |
 
-Source copies also under `landing-mock/` and `docs/` (GitHub Pages from `/docs`).
+Source for GitHub Pages: `docs/`. Working copies also under `landing-mock/`.
 
-Legacy wireframe (older): https://foodallo-food-nonfood-allocation.grok.me/
+## Links
 
-## Public references
-- https://grokipedia.com/page/FoodAllo
 - https://foodallo.com
-- https://x.com/food_allo
 - https://www.youtube.com/@FoodAllo
+- https://x.com/food_allo
+- https://grokipedia.com/page/FoodAllo
 
 ## Status
-Konzept-Demo / prototype. No claim of operational deployment, live pilot, or Beauftragung. Contributions welcome as discussion of rules, accessibility, and privacy — not as a commercial product pitch.
+
+**Ready to use / ready to deploy.** Public interest · free · no profit motive. Contributions welcome on rules, accessibility, and privacy.
 
 ## License note
-Documentation and concept text: intended for public-good reuse. Add a concrete OSS license when code is published.
+
+Documentation and site text: intended for public-good reuse. Add a concrete OSS license when application code is published.

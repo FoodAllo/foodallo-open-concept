@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FoodAllo — Ohne Smartphone</title>
   <link rel="icon" href="favicon.png" type="image/png" />
-  <meta name="description" content="Schalter, Nachbar, Papiercode — gleiche Höchstanteile ohne Smartphone." />
+  <meta name="description" content="Desk, neighbour, paper code — same maximum shares without a smartphone. FoodAllo." />
   <meta name="theme-color" content="#F6A959" />
   <style>
     :root {
@@ -56,7 +56,7 @@
     :focus-visible { outline: 2px solid var(--olive); outline-offset: 2px; }
   </style>
 </head>
-<body data-lang="de">
+<body data-lang="en">
   <div class="mock-banner" data-i18n="banner"></div>
   <div class="wrap">
     <header>
@@ -65,14 +65,7 @@
         <a href="index.html" data-i18n="nav_start"></a>
         <a href="demo.html?preset=markt" data-i18n="nav_demo"></a>
         <a href="eliminationsmaschine.html" data-i18n="nav_elim"></a>
-        <div class="lang" role="group" aria-label="Language">
-          <button type="button" data-lang-btn="de" aria-pressed="true">DE</button>
-          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
-          <button type="button" data-lang-btn="fr" aria-pressed="false">FR</button>
-          <button type="button" data-lang-btn="es" aria-pressed="false">ES</button>
-          <button type="button" data-lang-btn="uk" aria-pressed="false">UK</button>
-        </div>
-      </nav>
+</nav>
     </header>
 
     <main id="main">
@@ -91,11 +84,13 @@
   </div>
   <script>
 (function(){
-  var I18N = {"de": {"banner": "Übung / Konzept-Demo — kein Live-Behördensystem · Free · Gemeinwohl", "nav_start": "Start", "nav_demo": "Gast-Demo", "nav_elim": "Eliminationsmaschine", "badge": "Ohne Smartphone", "h1": "Drei Wege ohne Smartphone", "lead": "Gleiche Regeln wie in der App. Kein Extra-Anteil. Nur andere Wege zur Abholung.", "rule": "Eine Karte je Haushalt und Woche. Der Höchstanteil gilt überall — Schalter, Nachbar, Papiercode.", "s1_t": "Schalter", "s1_b": "Sie gehen zu einem kommunalen oder Laden-Schalter. Personal prüft den Anspruch und trägt den Höchstanteil ein.", "s2_t": "Nachbar / Vertretung", "s2_b": "Eine vertrauenswürdige Person holt für Sie ab. Dieselbe Karte — kein zweites Kontingent.", "s3_t": "Papiercode", "s3_b": "Sie erhalten einen kurzen Code auf Papier. Einmal nutzen, kurze Gültigkeit — dann Abholung wie am Schalter.", "cta": "Zur Gast-Demo (fair vs. wer zuerst kommt)", "note": "Gemeinwohl-Konzept · keine Beauftragung · Demo-Zahlen = Szenario · kein Live-System", "title": "FoodAllo — Ohne Smartphone"}, "en": {"banner": "Exercise / concept demo — not a live government system · free · public interest", "nav_start": "Home", "nav_demo": "Guest demo", "nav_elim": "Elimination engine", "badge": "No smartphone", "h1": "Three ways without a smartphone", "lead": "Same rules as in the app. No extra share. Only different pickup paths.", "rule": "One card per household per week. The maximum share applies everywhere — desk, neighbour, paper code.", "s1_t": "Desk / counter", "s1_b": "You go to a municipal or store counter. Staff checks entitlement and records the maximum share.", "s2_t": "Neighbour / proxy", "s2_b": "A trusted person picks up for you. Same card — no second quota.", "s3_t": "Paper code", "s3_b": "You get a short code on paper. One-time use, short validity — then pickup like at the desk.", "cta": "To guest demo (fair vs first come)", "note": "Public-interest concept · no mandate · demo numbers = scenario · not a live system", "title": "FoodAllo — No smartphone"}, "fr": {"banner": "Exercice / démo concept — pas un système public en production · gratuit · bien commun", "nav_start": "Accueil", "nav_demo": "Démo invitée", "nav_elim": "Machine d'élimination", "badge": "Sans smartphone", "h1": "Trois voies sans smartphone", "lead": "Mêmes règles que dans l'app. Pas de part supplémentaire. Seulement d'autres chemins de retrait.", "rule": "Une carte par foyer et par semaine. La part maximale s'applique partout — guichet, voisin, code papier.", "s1_t": "Guichet", "s1_b": "Vous allez à un guichet communal ou magasin. Le personnel vérifie le droit et enregistre la part maximale.", "s2_t": "Voisin / représentant", "s2_b": "Une personne de confiance retire pour vous. Même carte — pas de second quota.", "s3_t": "Code papier", "s3_b": "Vous recevez un code court sur papier. Usage unique, courte validité — puis retrait comme au guichet.", "cta": "Vers la démo (équitable vs premier arrivé)", "note": "Concept bien commun · pas de mandat · chiffres = scénario · pas un système live", "title": "FoodAllo — Sans smartphone"}, "es": {"banner": "Ejercicio / demo conceptual — no es un sistema público en vivo · gratis · bien común", "nav_start": "Inicio", "nav_demo": "Demo de invitado", "nav_elim": "Máquina de eliminación", "badge": "Sin smartphone", "h1": "Tres vías sin smartphone", "lead": "Mismas reglas que en la app. Sin cuota extra. Solo otras formas de recogida.", "rule": "Una tarjeta por hogar y semana. La cuota máxima vale en todas partes — ventanilla, vecino, código en papel.", "s1_t": "Ventanilla", "s1_b": "Va a una ventanilla municipal o de tienda. El personal comprueba el derecho y anota la cuota máxima.", "s2_t": "Vecino / representante", "s2_b": "Una persona de confianza recoge por usted. Misma tarjeta — sin segundo cupo.", "s3_t": "Código en papel", "s3_b": "Recibe un código corto en papel. Un solo uso, corta validez — luego recogida como en ventanilla.", "cta": "A la demo (justo vs quien llega primero)", "note": "Concepto de bien común · sin mandato · cifras = escenario · no es un sistema en vivo", "title": "FoodAllo — Sin smartphone"}, "uk": {"banner": "Вправа / концепт-демо — не жива державна система · безкоштовно · суспільне благо", "nav_start": "Головна", "nav_demo": "Гостьове демо", "nav_elim": "Машина усунення", "badge": "Без смартфона", "h1": "Три шляхи без смартфона", "lead": "Ті самі правила, що в застосунку. Без додаткової частки. Лише інші шляхи отримання.", "rule": "Одна картка на родину і тиждень. Максимальна частка діє всюди — каса, сусід, паперовий код.", "s1_t": "Каса / вікно", "s1_b": "Ви йдете до муніципальної або магазинної каси. Персонал перевіряє право і вносить максимальну частку.", "s2_t": "Сусід / представник", "s2_b": "Довірена особа отримує за вас. Та сама картка — без другої квоти.", "s3_t": "Паперовий код", "s3_b": "Ви отримуєте короткий код на папері. Одноразово, короткий термін — далі отримання як на касі.", "cta": "До демо (справедливо vs хто перший)", "note": "Концепт суспільного блага · немає доручення · цифри = сценарій · не жива система", "title": "FoodAllo — Без смартфона"}};
-  var cur = "de";
+  var I18N = {
+  "en": {"banner": "FoodAllo · Fair allocation of food and essentials · Public interest", "nav_start": "Home", "nav_demo": "Try FoodAllo", "nav_elim": "Elimination engine", "badge": "No smartphone", "h1": "Three ways without a smartphone", "lead": "Same rules as in the app. No extra share. Only different pickup paths.", "rule": "One card per household per week. The maximum share applies everywhere — desk, neighbour, paper code.", "s1_t": "Desk / counter", "s1_b": "You go to a municipal or store counter. Staff checks entitlement and records the maximum share.", "s2_t": "Neighbour / proxy", "s2_b": "A trusted person picks up for you. Same card — no second quota.", "s3_t": "Paper code", "s3_b": "You get a short code on paper. One-time use, short validity — then pickup like at the desk.", "cta": "Start allocation — fair vs first come", "note": "Public interest · Free · Ready to deploy · Same rules on every channel", "title": "FoodAllo — No smartphone"}
+  };
+  var cur = "en";
   var q = new URLSearchParams(location.search).get("lang");
   if (q && I18N[q]) cur = q;
-  function t(k){ return (I18N[cur]||I18N.de)[k] || I18N.de[k] || k; }
+  function t(k){ return (I18N[cur]||I18N.en)[k] || I18N.en[k] || k; }
   function apply(){
     document.body.setAttribute("data-lang", cur);
     document.documentElement.lang = cur === "uk" ? "uk" : cur;
