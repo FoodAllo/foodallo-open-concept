@@ -3,9 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FoodAllo — FoodAllo · Knappe Woche</title>
-  <meta name="description" content="Fair shares by need vs first come. FoodAllo. Public interest." />
+  <title>FoodAllo — Shortage week</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <meta name="description" content="Try FoodAllo without an account: fair shares by need vs first come when markets fail. Free, public interest, ready to use." />
+  <link rel="canonical" href="https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt" />
   <meta name="theme-color" content="#F6A959" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FoodAllo" />
+  <meta property="og:title" content="FoodAllo — Shortage week (no account)" />
+  <meta property="og:description" content="Fair shares by need, not first come. Try the free no-account demo — including without a smartphone." />
+  <meta property="og:url" content="https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt" />
+  <meta property="og:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="FoodAllo — Shortage week (no account)" />
+  <meta name="twitter:description" content="Fair shares by need, not first come. Try the free no-account demo — including without a smartphone." />
+  <meta name="twitter:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
   <style>
     :root {
       --ink: #1c1a16; --ink-soft: #3a342c; --muted: #6b6358;
@@ -149,8 +161,8 @@
         <a href="eliminationsmaschine.html" data-i18n="nav_elim"></a>
         <a href="index.html#faq" data-i18n="nav_faq"></a>
         <div class="lang" role="group" aria-label="Language">
-          <button type="button" data-lang-btn="de" aria-pressed="true">DE</button>
-          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang-btn="de" aria-pressed="false">DE</button>
+          <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
           <button type="button" data-lang-btn="fr" aria-pressed="false">FR</button>
           <button type="button" data-lang-btn="es" aria-pressed="false">ES</button>
           <button type="button" data-lang-btn="uk" aria-pressed="false">UK</button>
@@ -273,18 +285,18 @@
 (function () {
   var I18N = {
   "de": {
-    "banner": "FoodAllo · Fair allocation of food and essentials · Public interest",
+    "banner": "FoodAllo · Faire Zuteilung von Lebensmitteln und Bedarfsgütern · Gemeinwohl",
     "skip": "Zum Demo-Inhalt",
     "brand_suffix": "FoodAllo",
     "nav_home": "Zur Startseite",
     "nav_analog": "Ohne Smartphone",
     "nav_elim": "Eliminationsmaschine",
     "nav_faq": "FAQ",
-    "badge": "Kein Account · ready to use · Gemeinwohl",
+    "badge": "Kein Account · startklar · Gemeinwohl",
     "h1_knapp": "Knappe Woche — zwei Haushalte, ein Lager",
     "h1_markt": "Markt gestört — Regel statt Kaufkraft",
     "lead_knapp": "Dieselbe knappe Lage — einmal fair nach Bedarf, einmal wer zuerst kommt. Kein Account nötig.",
-    "lead_markt": "Das Lager ist da, der Marktpreis fällt aus. Compare: fair shares by need — or first come. Ready to use.",
+    "lead_markt": "Das Lager ist da, der Marktpreis fällt aus. Vergleichen: gerechte Anteile nach Bedarf — oder wer zuerst kommt. Startklar.",
     "step1_t": "Was ist passiert?",
     "step1_b": "Markt oder Versorgung ist gestört. Geld allein reicht nicht.",
     "step2_t": "Zwei Wege vergleichen",
@@ -293,7 +305,7 @@
     "step3_b": "Gleiche Regeln für alle — auch ohne Smartphone (Analog).",
     "scen_knapp": "Knappe Woche",
     "scen_markt": "Markt gestört",
-    "shock_title": "Scenario “Market disrupted” — ready to use.",
+    "shock_title": "Szenario „Markt gestört“ — startklar.",
     "shock1": "Marktpreis entscheidet nicht mehr, wer etwas bekommt.",
     "shock2": "Dass etwas im Lager liegt, sagt noch nicht, wer es bekommt.",
     "shock3": "Jeder Haushalt hat einen Höchstanteil — auch ohne Smartphone gelten dieselben Regeln.",
@@ -302,7 +314,7 @@
     "hint_markt": "Markt-Szenario: Preis zählt nicht. Tippe „Wer zuerst kommt“ — wer schnell ist, leert das Lager. Zurück auf „Nach Bedarf (fair)“: Höchstanteil und Säugling zuerst.",
     "mode_fair": "Nach Bedarf (fair)",
     "mode_first": "Wer zuerst kommt",
-    "esvg11": "Diskussionsanker ESVG § 11 Abs. 2: Mengen je Verbraucher administrierbar — for allocation, keine Rechtskraft, keine Beauftragung.",
+    "esvg11": "Diskussionsanker ESVG § 11 Abs. 2: Mengen je Verbraucher administrierbar — für die Zuteilung, keine Rechtskraft, keine Beauftragung.",
     "formula": "zugeteilt = min(angefragt, Höchstanteil/Woche, Restlager) · bei Enge zuerst Säugling / Kind / älter · 1 Karte / Haushalt / Woche",
     "analog_line": "Ohne Smartphone: Schalter, Nachbar oder Papiercode — gleicher Höchstanteil.",
     "cap_explain": "Höchstanteil pro Haushalt (auch: Obergrenze) = so viel wie ein Haushalt in einer Woche höchstens bekommen darf.",
@@ -318,18 +330,18 @@
     "stock_cap": "Lagerbestand vor/nach Zuteilung",
     "th_start": "Start",
     "th_left": "Rest",
-    "rules_h": "Öffentliche Regeln (Demo)",
+    "rules_h": "Öffentliche Regeln",
     "rule1": "Wochenanteil nach Alter (Säugling ≠ Erwachsener).",
     "rule2": "Bei Enge zuerst Säuglinge, Kinder, Ältere.",
     "rule3": "Kein Haushalt über den Höchstanteil — auch nicht bei großer Anfrage.",
-    "rule4": "One entitlement card per household per week.",
+    "rule4": "Eine Anspruchskarte je Haushalt und Woche.",
     "rule5": "Nur Anspruch und Kontingent — keine Konsumprofile.",
-    "offline": "Ohne Smartphone: Abholen ginge auch am Schalter, über Nachbarn oder mit Papiercode. Diese lokale Demo zeigt nur die Regelwirkung im Browser.",
+    "offline": "Ohne Smartphone: Abholen ginge auch am Schalter, über Nachbarn oder mit Papiercode. Diese Ansicht zeigt die Regelwirkung im Browser.",
     "btn_reset": "Woche zurücksetzen",
     "btn_analog": "Ohne Smartphone",
     "btn_elim": "Eliminationsmaschine",
     "btn_why": "Warum das nötig ist",
-    "fine": "FoodAllo. Public interest. No profit motive. Example households A/B.",
+    "fine": "FoodAllo. Gemeinwohl. Kein Gewinnziel. Beispielhaushalte A/B.",
     "aid": "FoodAllo ergänzt Hilfe und staatliche Lager — sie ersetzt sie nicht. Es geht um faire Regeln, wer was bekommt.",
     "call_fair_knapp": "Ergebnis: B wollte 25 kg Mehl — bekommt 4 kg (Höchstanteil). A mit Säugling behält Mehl und Nahrung.",
     "call_fair_markt": "Ergebnis (Markt gestört): Preis zählt nicht. B wollte 25 kg Mehl — Höchstanteil: 4 kg. Das Lager lagert; die Regel entscheidet. A mit Säugling behält Mehl und Nahrung. Ohne Smartphone: gleiche Regeln.",
@@ -394,13 +406,13 @@
     "stock_cap": "Warehouse stock before/after",
     "th_start": "Start",
     "th_left": "Left",
-    "rules_h": "Public rules (demo)",
+    "rules_h": "Public rules",
     "rule1": "Weekly share by age (infant ≠ adult).",
     "rule2": "When stock is tight: infants, children, elderly first.",
     "rule3": "No household above the maximum share — even with a large request.",
     "rule4": "One entitlement card per household per week.",
     "rule5": "Entitlement and quota only — no consumption profiles.",
-    "offline": "No smartphone: Pickup would also work at a desk, via a neighbour, or with a paper code. This local demo only shows the rule effect in the browser.",
+    "offline": "No smartphone: Pickup also works at a desk, via a neighbour, or with a paper code. This view shows the rule effect in the browser.",
     "btn_reset": "Reset week",
     "btn_analog": "No smartphone",
     "btn_elim": "Elimination engine",
@@ -425,18 +437,18 @@
     }
   },
   "fr": {
-    "banner": "Exercice / démo concept — pas un système public en production · gratuit · bien commun · région non fixée",
+    "banner": "FoodAllo · Répartition équitable des denrées et biens essentiels · Bien commun",
     "skip": "Aller à la démo",
     "brand_suffix": "Démo invitée",
     "nav_home": "Page d'accueil",
     "nav_analog": "Sans smartphone",
     "nav_elim": "Machine d'élimination",
     "nav_faq": "FAQ",
-    "badge": "Sans compte · exercice · bien commun",
+    "badge": "Sans compte · prêt à l’emploi · bien commun",
     "h1_knapp": "Semaine de pénurie — deux foyers, un entrepôt",
     "h1_markt": "Marché perturbé — règles, pas pouvoir d'achat",
     "lead_knapp": "La même pénurie — une fois équitable selon le besoin, une fois premier arrivé. Pas de compte.",
-    "lead_markt": "Le stock est là, le prix de marché échoue. Comparez : parts justes selon le besoin — ou premier arrivé. Exercice, pas un système live.",
+    "lead_markt": "Le stock est là, le prix de marché échoue. Comparez : parts justes selon le besoin — ou premier arrivé. Prêt à l’emploi.",
     "step1_t": "Que s'est-il passé ?",
     "step1_b": "Le marché ou l'approvisionnement est perturbé. L'argent seul ne suffit pas.",
     "step2_t": "Comparer deux voies",
@@ -445,7 +457,7 @@
     "step3_b": "Mêmes règles pour tous — aussi sans smartphone (analogique).",
     "scen_knapp": "Semaine de pénurie",
     "scen_markt": "Marché perturbé",
-    "shock_title": "Scénario « Marché perturbé » — exercice, pas un système live.",
+    "shock_title": "Scénario « Marché perturbé » — prêt à l’emploi.",
     "shock1": "Le prix de marché ne décide plus qui reçoit quoi.",
     "shock2": "Qu'il y ait du stock ne dit pas encore qui le reçoit.",
     "shock3": "Chaque foyer a une part maximale — mêmes règles sans smartphone.",
@@ -454,7 +466,7 @@
     "hint_markt": "Scénario marché : le prix ne compte pas. Passez à « Premier arrivé » — la vitesse vide l'entrepôt. Revenez à « Selon le besoin (équitable) » : part max et nourrisson d'abord.",
     "mode_fair": "Selon le besoin (équitable)",
     "mode_first": "Premier arrivé",
-    "esvg11": "Ancre de discussion ESVG § 11 al. 2 : quantités par consommateur administrables — exercice seulement, sans force juridique, sans mandat.",
+    "esvg11": "Ancre de discussion ESVG § 11 al. 2 : quantités par consommateur administrables — pour l’allocation, sans force juridique, sans mandat.",
     "formula": "attribué = min(demandé, part max/semaine, stock restant) · si serré : nourrisson / enfant / âgé d'abord · 1 carte / foyer / semaine",
     "analog_line": "Sans smartphone : guichet, voisin ou code papier — même part maximale.",
     "cap_explain": "Part maximale par foyer (aussi : plafond) = le maximum qu'un foyer peut recevoir en une semaine.",
@@ -470,19 +482,19 @@
     "stock_cap": "Stock avant/après attribution",
     "th_start": "Début",
     "th_left": "Reste",
-    "rules_h": "Règles publiques (démo)",
+    "rules_h": "Règles publiques",
     "rule1": "Part hebdomadaire selon l'âge (nourrisson ≠ adulte).",
     "rule2": "Si le stock est serré : nourrissons, enfants, personnes âgées d'abord.",
     "rule3": "Aucun foyer au-dessus de la part maximale — même avec une grande demande.",
-    "rule4": "Une carte d'entitlement par foyer et par semaine (dans cet exercice).",
+    "rule4": "Une carte d’entitlement par foyer et par semaine.",
     "rule5": "Seulement entitlement et quota — pas de profils de consommation.",
-    "offline": "Sans smartphone : le retrait peut aussi se faire au guichet, via un voisin ou avec un code papier. Cette démo locale montre seulement l'effet des règles dans le navigateur.",
+    "offline": "Sans smartphone : le retrait fonctionne aussi au guichet, via un voisin ou avec un code papier. Cette vue montre l’effet des règles dans le navigateur.",
     "btn_reset": "Réinitialiser la semaine",
     "btn_analog": "Sans smartphone",
     "btn_elim": "Machine d'élimination",
     "btn_why": "Pourquoi c'est nécessaire",
-    "fine": "Démo concept / exercice. Pas de mandat public. Pas de but lucratif. Foyers A/B fictifs.",
-    "aid": "FoodAllo complète l'aide et les stocks publics — il ne les remplace pas. Il s'agit de règles justes sur qui reçoit quoi.",
+    "fine": "FoodAllo. Bien commun. Pas de but lucratif. Foyers A/B d’exemple.",
+    "aid": "FoodAllo complète l’aide et les stocks publics — il ne les remplace pas. Il s’agit de règles justes sur qui reçoit quoi.",
     "call_fair_knapp": "Résultat : B voulait 25 kg de farine — reçoit 4 kg (part max). A avec nourrisson garde farine et lait.",
     "call_fair_markt": "Résultat (marché perturbé) : le prix ne compte pas. B voulait 25 kg — part max : 4 kg. Le stock stocke ; la règle décide. A avec nourrisson garde farine et lait. Sans smartphone : mêmes règles.",
     "call_first_knapp": "Résultat : B prend 18 kg de farine, entrepôt vide. A avec nourrisson : 0 kg de farine.",
@@ -501,18 +513,18 @@
     }
   },
   "es": {
-    "banner": "Ejercicio / demo conceptual — no es un sistema público en vivo · gratis · bien común · región no fijada",
+    "banner": "FoodAllo · Asignación justa de alimentos y bienes esenciales · Bien común",
     "skip": "Ir a la demo",
     "brand_suffix": "Demo de invitado",
     "nav_home": "Inicio",
     "nav_analog": "Sin smartphone",
     "nav_elim": "Máquina de eliminación",
     "nav_faq": "FAQ",
-    "badge": "Sin cuenta · ejercicio · bien común",
+    "badge": "Sin cuenta · listo para usar · bien común",
     "h1_knapp": "Semana de escasez — dos hogares, un almacén",
     "h1_markt": "Mercado alterado — reglas, no poder adquisitivo",
     "lead_knapp": "La misma escasez — una vez justa por necesidad, una vez quien llega primero. Sin cuenta.",
-    "lead_markt": "Hay stock, el precio de mercado falla. Compare: cuotas justas por necesidad — o quien llega primero. Ejercicio, no sistema en vivo.",
+    "lead_markt": "Hay stock, el precio de mercado falla. Compare: cuotas justas por necesidad — o quien llega primero. Listo para usar.",
     "step1_t": "¿Qué pasó?",
     "step1_b": "El mercado o el abastecimiento está alterado. El dinero solo no basta.",
     "step2_t": "Comparar dos vías",
@@ -521,7 +533,7 @@
     "step3_b": "Mismas reglas para todos — también sin smartphone (análogo).",
     "scen_knapp": "Semana de escasez",
     "scen_markt": "Mercado alterado",
-    "shock_title": "Escenario «Mercado alterado» — ejercicio, no sistema en vivo.",
+    "shock_title": "Escenario «Mercado alterado» — listo para usar.",
     "shock1": "El precio de mercado ya no decide quién recibe qué.",
     "shock2": "Que haya stock en el almacén aún no dice quién lo recibe.",
     "shock3": "Cada hogar tiene una cuota máxima — mismas reglas sin smartphone.",
@@ -530,7 +542,7 @@
     "hint_markt": "Escenario mercado: el precio no cuenta. Pulse «Quien llega primero» — la velocidad vacía el almacén. Vuelva a «Según necesidad (justo)»: cuota máx. y bebé primero.",
     "mode_fair": "Según necesidad (justo)",
     "mode_first": "Quien llega primero",
-    "esvg11": "Ancla de discusión ESVG § 11 ap. 2: cantidades por consumidor administrables — solo ejercicio, sin fuerza legal, sin mandato.",
+    "esvg11": "Ancla de discusión ESVG § 11 ap. 2: cantidades por consumidor administrables — para la asignación, sin fuerza legal, sin mandato.",
     "formula": "asignado = min(solicitado, cuota máx./semana, stock restante) · si hay escasez: bebé / niño / mayor primero · 1 tarjeta / hogar / semana",
     "analog_line": "Sin smartphone: ventanilla, vecino o código en papel — misma cuota máxima.",
     "cap_explain": "Cuota máxima por hogar (también: tope) = lo máximo que un hogar puede recibir en una semana.",
@@ -546,18 +558,18 @@
     "stock_cap": "Stock antes/después de la asignación",
     "th_start": "Inicio",
     "th_left": "Resto",
-    "rules_h": "Reglas públicas (demo)",
+    "rules_h": "Reglas públicas",
     "rule1": "Cuota semanal según edad (bebé ≠ adulto).",
     "rule2": "Si hay escasez: bebés, niños, mayores primero.",
     "rule3": "Ningún hogar por encima de la cuota máxima — ni con una gran solicitud.",
-    "rule4": "Una tarjeta de derecho por hogar y semana (en este ejercicio).",
+    "rule4": "Una tarjeta de derecho por hogar y semana.",
     "rule5": "Solo derecho y cupo — sin perfiles de consumo.",
-    "offline": "Sin smartphone: la recogida también puede hacerse en ventanilla, vía vecino o con código en papel. Esta demo local solo muestra el efecto de las reglas en el navegador.",
+    "offline": "Sin smartphone: la recogida también funciona en ventanilla, vía un vecino o con un código en papel. Esta vista muestra el efecto de las reglas en el navegador.",
     "btn_reset": "Reiniciar semana",
     "btn_analog": "Sin smartphone",
     "btn_elim": "Máquina de eliminación",
     "btn_why": "Por qué hace falta",
-    "fine": "Demo conceptual / ejercicio. Sin mandato público. Sin ánimo de lucro. Hogares A/B ficticios.",
+    "fine": "FoodAllo. Bien común. Sin ánimo de lucro. Hogares A/B de ejemplo.",
     "aid": "FoodAllo complementa la ayuda y los stocks públicos — no los sustituye. Se trata de reglas justas sobre quién recibe qué.",
     "call_fair_knapp": "Resultado: B quería 25 kg de harina — recibe 4 kg (cuota máx.). A con bebé conserva harina y fórmula.",
     "call_fair_markt": "Resultado (mercado alterado): el precio no cuenta. B quería 25 kg — cuota máx.: 4 kg. El stock almacena; la regla decide. A con bebé conserva harina y fórmula. Sin smartphone: mismas reglas.",
@@ -577,18 +589,18 @@
     }
   },
   "uk": {
-    "banner": "Вправа / концепт-демо — не жива державна система · безкоштовно · суспільне благо · регіон не визначено",
+    "banner": "FoodAllo · Справедливий розподіл їжі та товарів першої потреби · Суспільне благо",
     "skip": "До демо",
     "brand_suffix": "Гостьове демо",
     "nav_home": "На головну",
     "nav_analog": "Без смартфона",
     "nav_elim": "Машина усунення",
     "nav_faq": "FAQ",
-    "badge": "Без облікового запису · вправа · суспільне благо",
+    "badge": "Без облікового запису · готово до використання · суспільне благо",
     "h1_knapp": "Тиждень нестачі — дві родини, один склад",
     "h1_markt": "Ринок порушено — правила, не купівельна спроможність",
     "lead_knapp": "Та сама нестача — один раз справедливо за потребою, один раз хто перший. Без облікового запису.",
-    "lead_markt": "Склад є, ринкова ціна не працює. Порівняйте: справедливі частки за потребою — або хто перший. Вправа, не жива система.",
+    "lead_markt": "Склад є, ринкова ціна не працює. Порівняйте: справедливі частки за потребою — або хто перший. Готово до використання.",
     "step1_t": "Що сталося?",
     "step1_b": "Ринок або постачання порушено. Самих грошей недостатньо.",
     "step2_t": "Порівняти два шляхи",
@@ -597,7 +609,7 @@
     "step3_b": "Однакові правила для всіх — також без смартфона (аналог).",
     "scen_knapp": "Тиждень нестачі",
     "scen_markt": "Ринок порушено",
-    "shock_title": "Сценарій «Ринок порушено» — вправа, не жива система.",
+    "shock_title": "Сценарій «Ринок порушено» — готово до використання.",
     "shock1": "Ринкова ціна більше не вирішує, хто що отримує.",
     "shock2": "Те, що товар на складі, ще не каже, хто його отримає.",
     "shock3": "Кожна родина має максимальну частку — ті самі правила без смартфона.",
@@ -606,7 +618,7 @@
     "hint_markt": "Сценарій ринку: ціна не рахується. Натисніть «Хто перший» — швидкість спорожнює склад. Назад на «За потребою (справедливо)»: макс. частка і немовля спочатку.",
     "mode_fair": "За потребою (справедливо)",
     "mode_first": "Хто перший",
-    "esvg11": "Якір для обговорення ESVG § 11 абз. 2: кількості на споживача можна адмініструвати — лише вправа, без юридичної сили, без доручення.",
+    "esvg11": "Якір для обговорення ESVG § 11 абз. 2: кількості на споживача можна адмініструвати — для розподілу, без юридичної сили, без доручення.",
     "formula": "видано = min(запит, макс. частка/тиждень, залишок) · при нестачі спочатку немовля / дитина / літні · 1 картка / родина / тиждень",
     "analog_line": "Без смартфона: каса, сусід або паперовий код — та сама максимальна частка.",
     "cap_explain": "Максимальна частка на родину (також: стеля) = скільки родина може отримати щонайбільше за тиждень.",
@@ -622,19 +634,19 @@
     "stock_cap": "Залишок до/після видачі",
     "th_start": "Старт",
     "th_left": "Залишок",
-    "rules_h": "Публічні правила (демо)",
+    "rules_h": "Публічні правила",
     "rule1": "Тижнева частка за віком (немовля ≠ дорослий).",
     "rule2": "При нестачі спочатку немовлята, діти, літні.",
     "rule3": "Жодна родина понад максимальну частку — навіть при великому запиті.",
-    "rule4": "Одна картка права на родину і тиждень (у цій вправі).",
+    "rule4": "Одна картка права на родину і тиждень.",
     "rule5": "Лише право і квота — без профілів споживання.",
-    "offline": "Без смартфона: отримання також можливе на касі, через сусіда або з паперовим кодом. Ця локальна демо показує лише дію правил у браузері.",
+    "offline": "Без смартфона: отримання також працює на касі, через сусіда або з паперовим кодом. Цей перегляд показує дію правил у браузері.",
     "btn_reset": "Скинути тиждень",
     "btn_analog": "Без смартфона",
     "btn_elim": "Машина усунення",
     "btn_why": "Чому це потрібно",
-    "fine": "Концепт-демо / вправа. Немає державного доручення. Немає прибутку. Вигадані родини A/B.",
-    "aid": "FoodAllo доповнює допомогу і державні запаси — не замінює їх. Йдеться про справедливі правила, хто що отримує.",
+    "fine": "FoodAllo. Суспільне благо. Без прибутку. Приклад родин A/B.",
+    "aid": "FoodAllo доповнює допомогу та державні запаси — не замінює їх. Йдеться про справедливі правила, хто що отримує.",
     "call_fair_knapp": "Результат: B хотів 25 кг борошна — отримує 4 кг (макс. частка). A з немовлям зберігає борошно і харчування.",
     "call_fair_markt": "Результат (ринок порушено): ціна не рахується. B хотів 25 кг — макс. частка: 4 кг. Склад зберігає; правило вирішує. A з немовлям зберігає борошно і харчування. Без смартфона: ті самі правила.",
     "call_first_knapp": "Результат: B бере 18 кг борошна, склад порожній. A з немовлям: 0 кг борошна.",
@@ -679,7 +691,7 @@
   var mode = "fair";
   var scenario = "knapp";
   var STOCK0 = Object.assign({}, STOCK_KNAPP);
-  var curLang = "de";
+  var curLang = "en";
   var body = document.body;
 
   (function initPresetFromUrl() {
@@ -692,12 +704,12 @@
   STOCK0 = Object.assign({}, scenario === "markt" ? STOCK_MARKT : STOCK_KNAPP);
 
   function t(key) {
-    var pack = I18N[curLang] || I18N.de;
-    return pack[key] != null ? pack[key] : (I18N.de[key] || key);
+    var pack = I18N[curLang] || I18N.en;
+    return pack[key] != null ? pack[key] : (I18N.en[key] || key);
   }
   function itemLabel(key) {
-    var pack = I18N[curLang] || I18N.de;
-    return (pack.items && pack.items[key]) || (I18N.de.items[key]) || key;
+    var pack = I18N[curLang] || I18N.en;
+    return (pack.items && pack.items[key]) || (I18N.en.items[key]) || key;
   }
   function fmt(n, unit) {
     if (n == null || isNaN(n)) return "—";
@@ -848,8 +860,13 @@
   }
 
   function setLang(l) {
-    if (!I18N[l]) l = "de";
+    if (!I18N[l]) l = "en";
     curLang = l;
+    try {
+      var url = new URL(location.href);
+      url.searchParams.set("lang", l);
+      history.replaceState(null, "", url);
+    } catch (e) {}
     body.setAttribute("data-lang", l);
     document.documentElement.lang = l === "uk" ? "uk" : l;
     document.querySelectorAll("[data-lang-btn]").forEach(function (btn) {

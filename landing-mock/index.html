@@ -6,7 +6,137 @@
   <title>FoodAllo</title>
   <link rel="icon" href="favicon.png" type="image/png" />
   <meta name="description" content="FoodAllo: fair allocation of food and essentials by need when markets fail. Ready to use. Public interest. Free." />
+  <link rel="canonical" href="https://foodallo.github.io/foodallo-open-concept/" />
   <meta name="theme-color" content="#F6A959" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FoodAllo" />
+  <meta property="og:title" content="FoodAllo — Fair food allocation when markets fail" />
+  <meta property="og:description" content="Fair shares by need, not first come. Free, public interest, ready to use — including without a smartphone." />
+  <meta property="og:url" content="https://foodallo.github.io/foodallo-open-concept/" />
+  <meta property="og:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
+  <meta property="og:image:alt" content="FoodAllo logo" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FoodAllo — Fair food allocation when markets fail" />
+  <meta name="twitter:description" content="Fair shares by need, not first come. Free, public interest, ready to use — including without a smartphone." />
+  <meta name="twitter:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "FoodAllo",
+        "url": "https://foodallo.github.io/foodallo-open-concept/",
+        "description": "Fair allocation of food and essentials by need when markets fail. Free, public interest, ready to use. Complements aid and stockpiles — does not replace them.",
+        "inLanguage": "en",
+        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://foodallo.github.io/foodallo-open-concept/#org",
+        "name": "FoodAllo",
+        "url": "https://foodallo.github.io/foodallo-open-concept/",
+        "description": "Public-interest food and essentials allocation when markets fail. Free, ready to use. Complements aid — does not replace it.",
+        "sameAs": [
+          "https://x.com/food_allo",
+          "https://www.youtube.com/@FoodAllo",
+          "https://github.com/FoodAllo/foodallo-open-concept"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "FoodAllo",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+        "url": "https://foodallo.github.io/foodallo-open-concept/",
+        "description": "Need-based food and essentials allocation when markets fail. No account required. Multi-channel access including without a smartphone.",
+        "isAccessibleForFree": true,
+        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
+      },
+      {
+        "@type": "HowTo",
+        "name": "Try FoodAllo without an account",
+        "description": "Open the public market-disrupted allocation demo and compare first-come versus need-based shares.",
+        "totalTime": "PT5M",
+        "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Open the market-disrupted demo",
+            "text": "Go to the FoodAllo open allocation demo with the market-disrupted preset. No account required.",
+            "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Compare first come vs shares by need",
+            "text": "Inspect how household caps and vulnerable-first rules change outcomes when stock is tight."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Check no-smartphone access",
+            "text": "Open the analog channel page to see desk, neighbour/proxy, and paper-code paths with the same max share.",
+            "url": "https://foodallo.github.io/foodallo-open-concept/analog.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "url": "https://foodallo.github.io/foodallo-open-concept/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Aren't reserves + ESVG enough?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stockpiles answer that and where — not who gets what when. ESVG § 11 and AMK item 22 call for orderly distribution; the allocation layer is still missing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Doesn't an app exclude people without phones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Digital majority is not digital obligation. FoodAllo uses app, web, desk (municipality/retail), proxy for relatives, paper emergency codes, and offline checkout validation. Multi-channel access is mandatory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Isn't this surveillance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Purpose limitation (crisis/preparedness only), data minimization (entitlement and quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Won't hoarding and black markets bypass it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Caps and vulnerable-first rules stop hoarding from emptying the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Too complex, costly, slow?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Staged rollout, not a big bang: paper start, then limited digital, then situation-picture interface. Public interest, no vendor lock-in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does federalism block every system?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       --ink: #1c1a16;
@@ -150,6 +280,10 @@
     }
     .row span:nth-child(2) { color: var(--muted); text-decoration: line-through; }
     .row span:nth-child(3) { font-weight: 600; color: var(--olive-deep); font-variant-numeric: tabular-nums; }
+    .row.row-head { background: transparent; border-style: dashed; font-size: .72rem;
+      letter-spacing: .04em; text-transform: uppercase; font-weight: 600; }
+    .row.row-head span:nth-child(2),
+    .row.row-head span:nth-child(3) { text-decoration: none; color: var(--muted); font-weight: 600; }
     .note {
       font-size: .82rem; color: var(--muted); margin: 0;
     }
@@ -253,85 +387,99 @@
   </style>
 </head>
 <body data-lang="en">
-  <div class="mock-banner">FoodAllo · Fair allocation of food and essentials · Public interest</div>
+  <div class="mock-banner" data-i18n="banner">FoodAllo · Fair allocation of food and essentials · Public interest</div>
   <div class="wrap">
     <header>
       <a class="brand" href="#top" id="top">
         <img class="logo-img" src="logo-header.png" alt="FoodAllo" width="156" height="48" />
       </a>
       <div class="nav">
-        <a class="ghost" href="#warum">How it works</a>
-        <a class="ghost" href="demo.html?preset=markt">Try FoodAllo</a>
-        <a class="ghost" href="eliminationsmaschine.html">Elimination</a>
-        <a class="ghost" href="#faq">FAQ</a>
+        <a class="ghost" href="#how"><span data-i18n="nav_why">How it works</span></a>
+        <a class="ghost" href="demo.html?preset=markt"><span data-i18n="nav_demo">Try FoodAllo</span></a>
+        <a class="ghost" href="analog.html"><span data-i18n="nav_analog">No smartphone</span></a>
+        <a class="ghost" href="for-responders.html"><span data-i18n="nav_resp">For responders</span></a>
+        <a class="ghost" href="#faq"><span data-i18n="nav_faq">FAQ</span></a>
+      
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang-btn="de" aria-pressed="false">DE</button>
+          <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang-btn="fr" aria-pressed="false">FR</button>
+          <button type="button" data-lang-btn="es" aria-pressed="false">ES</button>
+          <button type="button" data-lang-btn="uk" aria-pressed="false">UK</button>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="hero" aria-labelledby="hero-h1">
         <div>
-          <p class="kicker">Public interest · Fair allocation · Ready to use</p>
-          <h1 id="hero-h1">When the market fails, money alone is not enough.</h1>
-          <p class="lead">FoodAllo shows fair shares by need — not “first come”. Stock in the warehouse alone does not say who gets it.</p>
+          <p class="kicker"><span data-i18n="kicker">Public interest · Fair allocation · Ready to use</span></p>
+          <h1 id="hero-h1"><span data-i18n="h1">When the market fails, money alone is not enough.</span></h1>
+          <p class="lead"><span data-i18n="lead">FoodAllo shows fair shares by need — not “first come”. Stock in the warehouse alone does not say who gets it.</span></p>
           <div class="hero-steps" aria-label="Three steps">
-            <div class="hero-step"><strong>Problem</strong><span>Supply disrupted. Stock alone is not fair distribution.</span></div>
-            <div class="hero-step"><strong>Compare</strong><span>First come vs shares by need.</span></div>
-            <div class="hero-step"><strong>Result</strong><span>Same rules for everyone — also without a smartphone.</span></div>
+            <div class="hero-step"><strong data-i18n="s1t">Problem</strong><span data-i18n="s1b">Supply disrupted. Stock alone is not fair distribution.</span></div>
+            <div class="hero-step"><strong data-i18n="s2t">Compare</strong><span data-i18n="s2b">First come vs shares by need.</span></div>
+            <div class="hero-step"><strong data-i18n="s3t">Result</strong><span data-i18n="s3b">Same rules for everyone — also without a smartphone.</span></div>
           </div>
           <div class="ctas">
-            <a class="btn btn-primary" href="demo.html?preset=markt">Start allocation</a>
-            <a class="btn btn-secondary" href="#warum">How it works</a>
+            <a class="btn btn-primary" href="demo.html?preset=markt"><span data-i18n="cta_demo">Try FoodAllo</span></a>
+            <a class="btn btn-secondary" href="#how"><span data-i18n="cta_why">How it works</span></a>
           </div>
-          <p class="fine">Complements aid and stockpiles — does not replace them. Free · public interest · ready to deploy.</p>
+          <p class="fine"><span data-i18n="fine">Complements aid and stockpiles — does not replace them. Free · public interest · ready to deploy.</span> <a href="for-responders.html" data-i18n="fine_resp">For crisis responders</a>.</p>
         </div>
 
         <aside class="teaser" id="demo-hint" aria-labelledby="demo-h2">
-          <p class="badge">Try FoodAllo · no account</p>
-          <h2 id="demo-h2">Preview: max share instead of hoarding</h2>
-          <p class="note" style="margin-top:.65rem">Open allocation: fair vs first come — demo.html?preset=markt</p>
-          <div class="ticker">Warehouse · rice tight · flour limited · formula limited</div>
-          <p class="note" style="margin-bottom:.35rem;font-weight:600;color:var(--ink-soft)">By need (fair) — wheat flour</p>
+          <p class="badge"><span data-i18n="teaser_badge">Try FoodAllo · no account</span></p>
+          <h2 id="demo-h2"><span data-i18n="teaser_h2">Preview: max share instead of hoarding</span></h2>
+          <p class="note" style="margin-top:.65rem"><span data-i18n="teaser_note">Fair share vs first come — no account needed</span></p>
+          <div class="ticker"><span data-i18n="ticker">Warehouse · rice tight · flour limited · formula limited</span></div>
+          <p class="note" style="margin-bottom:.35rem;font-weight:600;color:var(--ink-soft)"><span data-i18n="compare_label">Wheat flour this week</span></p>
           <div class="compare" aria-hidden="false">
+            <div class="row row-head">
+              <span data-i18n="col_household">Household</span>
+              <span data-i18n="col_asked">Asked</span>
+              <span data-i18n="col_fair">Fair share</span>
+            </div>
             <div class="row">
-              <span>Household A · 2 adults + infant</span>
+              <span data-i18n="row_a">Household A · 2 adults + infant</span>
               <span>4.2 kg</span>
               <span>4.2 kg</span>
             </div>
             <div class="row">
-              <span>Household B · hoarding request</span>
+              <span data-i18n="row_b">Household B · hoarding request</span>
               <span>25 kg</span>
               <span>4.0 kg</span>
             </div>
           </div>
-          <p class="note" style="margin-top:.75rem;padding:.65rem .8rem;border-radius:.45rem;background:#f0f5e6;border:1px solid #c5d4a8;color:#3f6212;font-size:.88rem">With rules: B gets 4 kg instead of 25 kg — A with infant keeps flour and formula. Without rules: B takes 18 kg, warehouse empty, A: 0 kg.</p>
-          <p class="fine" style="margin-top:.65rem;max-width:28rem">Allocation answers who gets what when — reserves alone do not.</p>
-          <p class="fine" style="margin-top:.35rem;max-width:28rem">No smartphone: desk / neighbour / paper code — same max share.</p>
-          <p class="fine" style="margin-top:1rem">Public interest · no profit motive · ready to use</p>
+          <p class="note" style="margin-top:.75rem;padding:.65rem .8rem;border-radius:.45rem;background:#f0f5e6;border:1px solid #c5d4a8;color:#3f6212;font-size:.88rem" data-i18n="clarity">With rules: B gets 4 kg instead of 25 kg — A with infant keeps flour and formula. Without rules: B takes 18 kg, warehouse empty, A: 0 kg.</p>
+          <p class="fine" style="margin-top:.65rem;max-width:28rem" data-i18n="teaser_reserve">Allocation answers who gets what when — reserves alone do not.</p>
+          <p class="fine" style="margin-top:.35rem;max-width:28rem" data-i18n="teaser_analog">No smartphone: desk / neighbour / paper code — same max share.</p>
+          <p class="fine" style="margin-top:1rem" data-i18n="teaser_footer">Public interest · no profit motive · ready to use</p>
         </aside>
       </section>
     </main>
   </div>
 
-  <section class="why" id="warum">
+  <section class="why" id="how"><span id="warum" hidden></span>
     <div class="wrap">
-      <p class="kicker">Principles</p>
-      <h2>Equal worth. Need, not influence. Visible shares.</h2>
+      <p class="kicker"><span data-i18n="why_kicker">Principles</span></p>
+      <h2><span data-i18n="why_h2">Equal worth. Need, not influence. Visible shares.</span></h2>
       <div class="principles">
         <article class="principle">
-          <h3>Fair share, not first come</h3>
-          <p>Per-person weekly baselines; infants, children, and elderly first when stock is tight. No household above a capped slice of remaining stock.</p>
+          <h3><span data-i18n="p1t">Fair share, not first come</span></h3>
+          <p><span data-i18n="p1b">Per-person weekly baselines; infants, children, and elderly first when stock is tight. No household above a capped slice of remaining stock.</span></p>
         </article>
         <article class="principle">
-          <h3>Self-reported, then checked</h3>
-          <p>Needs declared, grants and collections recorded — a digital equivalent of a stamped ration booklet.</p>
+          <h3><span data-i18n="p2t">Self-reported, then checked</span></h3>
+          <p><span data-i18n="p2b">Needs declared, grants and collections recorded — a digital equivalent of a stamped ration booklet.</span></p>
         </article>
         <article class="principle">
-          <h3>Stock you can see</h3>
-          <p>Community stock and issued amounts are visible in the app — the same warehouse picture for everyone.</p>
+          <h3><span data-i18n="p3t">Stock you can see</span></h3>
+          <p><span data-i18n="p3b">Community stock and issued amounts are visible in the app — the same warehouse picture for everyone.</span></p>
         </article>
         <article class="principle">
-          <h3>An emergency instrument</h3>
-          <p>Not a cure-all for hunger and not standing welfare. For market-disrupted crises — food, water, fuel, and essentials.</p>
+          <h3><span data-i18n="p4t">An emergency instrument</span></h3>
+          <p><span data-i18n="p4b">Not a cure-all for hunger and not standing welfare. For market-disrupted crises — food, water, fuel, and essentials.</span></p>
         </article>
       </div>
     </div>
@@ -340,74 +488,466 @@
   <div class="cta-band">
     <div class="wrap inner">
       <div>
-        <h2>Open a shortage week</h2>
-        <p>Try FoodAllo without an account — see max share and need-based rules in action.</p>
+        <h2><span data-i18n="cta_band_h">See the rules on a shortage week</span></h2>
+        <p><span data-i18n="cta_band_p">Try FoodAllo without an account — see max share and need-based rules in action.</span></p>
       </div>
-      <a class="btn btn-on-primary" href="demo.html?preset=markt">Open FoodAllo</a>
+      <a class="btn btn-on-primary" href="demo.html?preset=markt"><span data-i18n="cta_band_btn">Try FoodAllo</span></a>
     </div>
   </div>
 
   <section class="faq" id="faq">
     <div class="wrap">
-      <p class="kicker">FAQ</p>
-      <h2>Honest questions — and how FoodAllo answers</h2>
-      <p class="fine" style="margin-top:.75rem;max-width:36rem">
-        Reserves are not the same as who gets what. Caps stop hoarding. Multi-channel access includes people without phones.
-      </p>
+      <p class="kicker"><span data-i18n="faq_kicker">FAQ</span></p>
+      <h2><span data-i18n="faq_h2">Honest questions — and how FoodAllo answers</span></h2>
+      <p class="fine" style="margin-top:.75rem;max-width:36rem"><span data-i18n="faq_intro">Reserves are not the same as who gets what. Caps stop hoarding. Multi-channel access includes people without phones.</span></p>
 
       <details class="faq-item">
-        <summary>Aren’t reserves + ESVG enough?</summary>
-        <p>Stockpiles answer <em>that</em> and <em>where</em> — not <em>who gets what when</em>. ESVG § 11 and AMK item 22 call for orderly distribution; the allocation layer is still missing. That’s the hero’s third tile.</p>
+        <summary data-i18n="faq1_q">Aren’t stockpiles enough?</summary>
+        <p data-i18n="faq1_a">Stockpiles say what is stored and where. They do not say who gets how much when shelves run short. FoodAllo is that missing allocation layer. (German preparedness law still asks for orderly distribution — the layer is not built.)</p>
       </details>
 
       <details class="faq-item">
-        <summary>Doesn’t an app exclude people without phones?</summary>
-        <p>Digital majority ≠ digital obligation. FoodAllo uses app + web + desk (municipality/retail), proxy for relatives, paper emergency codes, and offline checkout validation. Multi-channel access is mandatory.</p>
+        <summary data-i18n="faq2_q">Doesn’t an app exclude people without phones?</summary>
+        <p data-i18n="faq2_a">A digital majority is not a digital obligation. FoodAllo uses app, web, a municipal or store desk, a neighbour or proxy, paper emergency codes, and offline checkout checks. The same maximum share on every path.</p>
       </details>
 
       <details class="faq-item">
-        <summary>Isn’t this surveillance?</summary>
-        <p>Purpose limitation (crisis/preparedness only), data minimization (entitlement + quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders.</p>
+        <summary data-i18n="faq3_q">Isn’t this surveillance?</summary>
+        <p data-i18n="faq3_a">Purpose limitation (crisis/preparedness only), data minimization (entitlement + quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders.</p>
       </details>
 
       <details class="faq-item">
-        <summary>Won’t hoarding and black markets bypass it?</summary>
-        <p>That’s why caps and vulnerable-first — visible in <a href="demo.html?preset=markt">Open allocation</a>: a 25 kg flour request is capped to baseline; first-come empties the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible.</p>
+        <summary data-i18n="faq4_q">Won’t hoarding and black markets bypass it?</summary>
+        <p data-i18n="faq4_a">That’s why caps and vulnerable-first — visible in Open allocation: a 25 kg flour request is capped to baseline; first-come empties the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible.</p>
       </details>
 
       <details class="faq-item">
-        <summary>Too complex, costly, slow?</summary>
-        <p>Staged rollout, not a big bang: paper start → limited digital → situation-picture interface. Public interest, no vendor lock-in.</p>
+        <summary data-i18n="faq5_q">Too complex, costly, slow?</summary>
+        <p data-i18n="faq5_a">Staged rollout, not a big bang: paper start → limited digital → situation-picture interface. Public interest, no vendor lock-in.</p>
       </details>
 
       <details class="faq-item">
-        <summary>Does federalism block every system?</summary>
-        <p>AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority.</p>
+        <summary data-i18n="faq6_q">Does federalism block every system?</summary>
+        <p data-i18n="faq6_a">AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority.</p>
       </details>
     </div>
   </section>
 
   <div class="wrap" style="padding:0 1.25rem 2rem;max-width:72rem;margin:0 auto">
-    <p style="margin:0;padding:.85rem 1.05rem;border-radius:.65rem;border:1px dashed #e0d6c6;font-size:.88rem;color:#6b6358;max-width:40rem">
-      FoodAllo complements aid, it does not replace it — an allocation layer, not a supply chain.
-    </p>
+    <p style="margin:0;padding:.85rem 1.05rem;border-radius:.65rem;border:1px dashed #e0d6c6;font-size:.88rem;color:#6b6358;max-width:40rem"><span data-i18n="aid_box">FoodAllo complements aid, it does not replace it — an allocation layer, not a supply chain.</span></p>
   </div>
 
   <footer id="legal">
     <div class="wrap">
       <div class="line">
-        <span>FoodAllo · Food and non-food allocation</span>
+        <span><span data-i18n="footer_product">FoodAllo · Food and non-food allocation</span></span>
         <span>
-          Public interest · no profit motive · ready to use
+          <span data-i18n="footer_line">Public interest · no profit motive · ready to use</span>
+          · <a href="analog.html" data-i18n="nav_analog">No smartphone</a>
+          · <a href="eliminationsmaschine.html" data-i18n="nav_elim">Why other paths fail</a>
           · <a href="https://x.com/food_allo" rel="noopener">@food_allo</a>
           · <a href="https://foodallo.com" rel="noopener">foodallo.com</a>
         </span>
       </div>
       <div class="legal-box">
-        <strong>Legal notice</strong><br />
-        FoodAllo · public-interest project · contact via foodallo.com
+        <strong><span data-i18n="legal_h">Legal notice</span></strong><br />
+        <span data-i18n="legal_b">FoodAllo · public-interest project · contact via foodallo.com</span>
       </div>
     </div>
   </footer>
+
+<script>
+(function () {
+  var I18N = {
+  "en": {
+    "banner": "FoodAllo · Fair allocation of food and essentials · Public interest",
+    "nav_why": "How it works",
+    "nav_demo": "Try FoodAllo",
+    "nav_analog": "No smartphone",
+    "nav_elim": "Why other paths fail",
+    "nav_resp": "For responders",
+    "nav_faq": "FAQ",
+    "kicker": "Public interest · Fair allocation · Ready to use",
+    "h1": "When the market fails, money alone is not enough.",
+    "lead": "FoodAllo shows fair shares by need — not “first come”. Stock in the warehouse alone does not say who gets it.",
+    "s1t": "Problem",
+    "s1b": "Supply disrupted. Stock alone is not fair distribution.",
+    "s2t": "Compare",
+    "s2b": "First come vs shares by need.",
+    "s3t": "Result",
+    "s3b": "Same rules for everyone — also without a smartphone.",
+    "cta_demo": "Try FoodAllo",
+    "cta_why": "How it works",
+    "fine": "Complements aid and stockpiles — does not replace them. Free · public interest · ready to deploy.",
+    "fine_resp": "For crisis responders",
+    "teaser_badge": "Try FoodAllo · no account",
+    "teaser_h2": "Preview: max share instead of hoarding",
+    "teaser_note": "Fair share vs first come — no account needed",
+    "ticker": "Warehouse · rice tight · flour limited · formula limited",
+    "compare_label": "Wheat flour this week",
+    "col_household": "Household",
+    "col_asked": "Asked",
+    "col_fair": "Fair share",
+    "row_a": "Household A · 2 adults + infant",
+    "row_b": "Household B · hoarding request",
+    "clarity": "With rules: B gets 4 kg instead of 25 kg — A with infant keeps flour and formula. Without rules: B takes 18 kg, warehouse empty, A: 0 kg.",
+    "teaser_reserve": "Allocation answers who gets what when — reserves alone do not.",
+    "teaser_analog": "No smartphone: desk / neighbour / paper code — same max share.",
+    "teaser_footer": "Public interest · no profit motive · ready to use",
+    "why_kicker": "Principles",
+    "why_h2": "Equal worth. Need, not influence. Visible shares.",
+    "p1t": "Fair share, not first come",
+    "p1b": "Per-person weekly baselines; infants, children, and elderly first when stock is tight. No household above a capped slice of remaining stock.",
+    "p2t": "Self-reported, then checked",
+    "p2b": "Needs declared, grants and collections recorded — a digital equivalent of a stamped ration booklet.",
+    "p3t": "Stock you can see",
+    "p3b": "Community stock and issued amounts are visible in the app — the same warehouse picture for everyone.",
+    "p4t": "An emergency instrument",
+    "p4b": "Not a cure-all for hunger and not standing welfare. For market-disrupted crises — food, water, fuel, and essentials.",
+    "cta_band_h": "See the rules on a shortage week",
+    "cta_band_p": "Try FoodAllo without an account — see max share and need-based rules in action.",
+    "cta_band_btn": "Try FoodAllo",
+    "faq_kicker": "FAQ",
+    "faq_h2": "Honest questions — and how FoodAllo answers",
+    "faq_intro": "Reserves are not the same as who gets what. Caps stop hoarding. Multi-channel access includes people without phones.",
+    "faq1_q": "Aren’t stockpiles enough?",
+    "faq1_a": "Stockpiles say what is stored and where. They do not say who gets how much when shelves run short. FoodAllo is that missing allocation layer. (German preparedness law still asks for orderly distribution — the layer is not built.)",
+    "faq2_q": "Doesn’t an app exclude people without phones?",
+    "faq2_a": "A digital majority is not a digital obligation. FoodAllo uses app, web, a municipal or store desk, a neighbour or proxy, paper emergency codes, and offline checkout checks. The same maximum share on every path.",
+    "faq3_q": "Isn’t this surveillance?",
+    "faq3_a": "It records entitlement and the weekly share, not shopping profiles. Used only in a crisis or drill. Roles are split, and records are deleted after a set window.",
+    "faq4_q": "Won’t hoarding and black markets bypass it?",
+    "faq4_a": "That’s why caps and vulnerable-first — visible in Open allocation: a 25 kg flour request is capped to baseline; first-come empties the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible.",
+    "faq5_q": "Too complex, costly, slow?",
+    "faq5_a": "Staged rollout, not a big bang: paper start → limited digital → situation-picture interface. Public interest, no vendor lock-in.",
+    "faq6_q": "Does federalism block every system?",
+    "faq6_a": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority.",
+    "aid_box": "FoodAllo complements aid, it does not replace it — an allocation layer, not a supply chain.",
+    "footer_product": "FoodAllo · Food and non-food allocation",
+    "footer_line": "Public interest · no profit motive · ready to use",
+    "legal_h": "Legal notice",
+    "legal_b": "FoodAllo · public-interest project · contact via foodallo.com",
+    "title": "FoodAllo — Fair allocation when markets fail",
+    "desc": "FoodAllo: fair allocation of food and essentials by need when markets fail. Ready to use. Public interest. Free."
+  },
+  "de": {
+    "banner": "FoodAllo · Faire Zuteilung von Lebensmitteln und Bedarfsgütern · Gemeinwohl",
+    "nav_why": "So funktioniert es",
+    "nav_demo": "FoodAllo ausprobieren",
+    "nav_analog": "Ohne Smartphone",
+    "nav_elim": "Warum andere Wege scheitern",
+    "nav_resp": "Für Einsatzkräfte",
+    "nav_faq": "FAQ",
+    "kicker": "Gemeinwohl · Faire Zuteilung · Startklar",
+    "h1": "Wenn der Markt ausfällt, reicht Geld allein nicht.",
+    "lead": "FoodAllo zeigt gerechte Anteile nach Bedarf — statt „wer zuerst kommt“. Dass etwas im Lager liegt, sagt noch nicht, wer es bekommt.",
+    "s1t": "Problem",
+    "s1b": "Versorgung gestört. Lager allein verteilt nichts fair.",
+    "s2t": "Vergleich",
+    "s2b": "Wer zuerst kommt vs. Anteile nach Bedarf.",
+    "s3t": "Ergebnis",
+    "s3b": "Gleiche Regeln für alle — auch ohne Smartphone.",
+    "cta_demo": "FoodAllo ausprobieren",
+    "cta_why": "So funktioniert es",
+    "fine": "Ergänzt Hilfe und Lager — ersetzt sie nicht. Kostenlos · Gemeinwohl · startklar.",
+    "fine_resp": "Für Krisen-Einsatzkräfte",
+    "teaser_badge": "FoodAllo ausprobieren · kein Account",
+    "teaser_h2": "Vorschau: Höchstanteil statt Hamstern",
+    "teaser_note": "Fairer Anteil vs. wer zuerst kommt — kein Konto nötig",
+    "ticker": "Lager · Reis knapp · Mehl begrenzt · Säuglingsnahrung begrenzt",
+    "compare_label": "Weizenmehl in dieser Woche",
+    "col_household": "Haushalt",
+    "col_asked": "Angefragt",
+    "col_fair": "Fairer Anteil",
+    "row_a": "Haushalt A · 2 Erwachsene + Säugling",
+    "row_b": "Haushalt B · Hamster-Anfrage",
+    "clarity": "Mit Regeln: B bekommt 4 kg statt 25 kg — A mit Säugling behält Mehl und Nahrung. Ohne Regeln: B nimmt 18 kg, Lager leer, A: 0 kg.",
+    "teaser_reserve": "Zuteilung beantwortet, wer was wann bekommt — Reserven allein nicht.",
+    "teaser_analog": "Ohne Smartphone: Schalter / Nachbar / Papiercode — gleicher Höchstanteil.",
+    "teaser_footer": "Gemeinwohl · kein Gewinnziel · startklar",
+    "why_kicker": "Prinzipien",
+    "why_h2": "Gleicher Wert. Bedarf, nicht Einfluss. Sichtbare Anteile.",
+    "p1t": "Fairer Anteil, nicht wer zuerst kommt",
+    "p1b": "Wochenbaselines pro Person; bei Enge zuerst Säuglinge, Kinder, Ältere. Kein Haushalt über einen begrenzten Anteil am Restlager.",
+    "p2t": "Selbst angegeben, dann geprüft",
+    "p2b": "Bedarf gemeldet, Zuteilungen und Abholungen erfasst — digital wie ein gestempeltes Bezugsheft.",
+    "p3t": "Lager, das man sieht",
+    "p3b": "Gemeinschaftslager und ausgegebene Mengen sind in der App sichtbar — dasselbe Lagerbild für alle.",
+    "p4t": "Ein Notfallinstrument",
+    "p4b": "Kein Allheilmittel gegen Hunger und keine Dauerversorgung. Für marktgestörte Krisen — Nahrung, Wasser, Brennstoff und Bedarfsgüter.",
+    "cta_band_h": "Die Regeln in einer knappen Woche sehen",
+    "cta_band_p": "FoodAllo ohne Account ausprobieren — Höchstanteil und Bedarfsregeln in Aktion sehen.",
+    "cta_band_btn": "FoodAllo ausprobieren",
+    "faq_kicker": "FAQ",
+    "faq_h2": "Ehrliche Fragen — und wie FoodAllo antwortet",
+    "faq_intro": "Reserven sind nicht dasselbe wie wer was bekommt. Obergrenzen stoppen Hamstern. Mehrkanalzugang schließt Menschen ohne Handy ein.",
+    "faq1_q": "Reichen Vorräte nicht aus?",
+    "faq1_a": "Vorräte sagen, was lagert und wo. Sie sagen nicht, wer wie viel bekommt, wenn es eng wird. FoodAllo ist diese fehlende Zuteilungsschicht. (ESVG und AMK fordern geordnete Verteilung — die Schicht ist nicht gebaut.)",
+    "faq2_q": "Schließt eine App Menschen ohne Handy aus?",
+    "faq2_a": "Eine digitale Mehrheit ist keine digitale Pflicht. FoodAllo nutzt App, Web, Schalter (Kommune oder Handel), Nachbar oder Vertretung, Papier-Notfallcodes und Offline-Kassenprüfung. Derselbe Höchstanteil auf jedem Weg.",
+    "faq3_q": "Ist das Überwachung?",
+    "faq3_a": "Zweckbindung (nur Krise/Vorsorge), Datenminimierung (Anspruch + Kontingent, keine dauerhaften Warenkörbe), getrennte Rollen, Löschfristen. Keine Konsumprofile für Unbeteiligte.",
+    "faq4_q": "Umgehen Hamstern und Schwarzmarkt das nicht?",
+    "faq4_a": "Deshalb Obergrenzen und Vulnerable first — sichtbar in der offenen Zuteilung: 25 kg Mehl-Anfrage wird auf Baseline gekappt; wer zuerst kommt, leert das Lager. Prüfpfade und Kassenabgleich erhöhen Akzeptanz, wenn Fairness sichtbar ist.",
+    "faq5_q": "Zu komplex, teuer, langsam?",
+    "faq5_a": "Stufenweiser Rollout, kein Big Bang: Papierstart → begrenztes Digital → Lagebild-Schnittstelle. Gemeinwohl, kein Vendor-Lock-in.",
+    "faq6_q": "Blockiert der Föderalismus jedes System?",
+    "faq6_a": "AMK-Punkt 22 fordert bundesweite Koordination und ein BLE-Lagebild. FoodAllo ist eine Zuteilungsschicht mit klarer Führung — nicht 16 Silos und keine Parallelbehörde.",
+    "aid_box": "FoodAllo ergänzt Hilfe, ersetzt sie nicht — eine Zuteilungsschicht, keine Lieferkette.",
+    "footer_product": "FoodAllo · Zuteilung von Lebensmitteln und Non-Food",
+    "footer_line": "Gemeinwohl · kein Gewinnziel · startklar",
+    "legal_h": "Impressum / Hinweis",
+    "legal_b": "FoodAllo · Gemeinwohl-Projekt · Kontakt über foodallo.com",
+    "title": "FoodAllo — Faire Zuteilung, wenn Märkte ausfallen",
+    "desc": "FoodAllo: faire Zuteilung von Lebensmitteln und Bedarfsgütern nach Bedarf, wenn Märkte ausfallen. Startklar. Gemeinwohl. Kostenlos."
+  },
+  "fr": {
+    "banner": "FoodAllo · Répartition équitable des denrées et biens essentiels · Bien commun",
+    "nav_why": "Comment ça marche",
+    "nav_demo": "Essayer FoodAllo",
+    "nav_analog": "Sans smartphone",
+    "nav_elim": "Pourquoi les autres voies échouent",
+    "nav_resp": "Pour les intervenants",
+    "nav_faq": "FAQ",
+    "kicker": "Bien commun · Répartition équitable · Prêt à l’emploi",
+    "h1": "Quand le marché échoue, l’argent seul ne suffit pas.",
+    "lead": "FoodAllo montre des parts justes selon le besoin — pas « premier arrivé ». Le stock seul ne dit pas qui le reçoit.",
+    "s1t": "Problème",
+    "s1b": "Approvisionnement perturbé. Le stock seul n’est pas une répartition juste.",
+    "s2t": "Comparer",
+    "s2b": "Premier arrivé vs parts selon le besoin.",
+    "s3t": "Résultat",
+    "s3b": "Mêmes règles pour tous — aussi sans smartphone.",
+    "cta_demo": "Essayer FoodAllo",
+    "cta_why": "Comment ça marche",
+    "fine": "Complète l’aide et les stocks — ne les remplace pas. Gratuit · bien commun · prêt à déployer.",
+    "fine_resp": "Pour les intervenants de crise",
+    "teaser_badge": "Essayer FoodAllo · sans compte",
+    "teaser_h2": "Aperçu : part max au lieu de stocker",
+    "teaser_note": "Part juste vs premier arrivé — sans compte",
+    "ticker": "Entrepôt · riz serré · farine limitée · lait infantile limité",
+    "compare_label": "Farine de blé cette semaine",
+    "col_household": "Foyer",
+    "col_asked": "Demandé",
+    "col_fair": "Part juste",
+    "row_a": "Foyer A · 2 adultes + nourrisson",
+    "row_b": "Foyer B · demande de stockage",
+    "clarity": "Avec règles : B reçoit 4 kg au lieu de 25 — A avec nourrisson garde farine et lait. Sans règles : B prend 18 kg, entrepôt vide, A : 0 kg.",
+    "teaser_reserve": "L’allocation répond à qui reçoit quoi quand — les réserves seules non.",
+    "teaser_analog": "Sans smartphone : guichet / voisin / code papier — même part max.",
+    "teaser_footer": "Bien commun · pas de but lucratif · prêt à l’emploi",
+    "why_kicker": "Principes",
+    "why_h2": "Dignité égale. Besoin, pas influence. Parts visibles.",
+    "p1t": "Part juste, pas premier arrivé",
+    "p1b": "Baselines hebdomadaires par personne ; nourrissons, enfants et personnes âgées d’abord quand le stock est serré. Aucun foyer au-dessus d’une part plafonnée du stock restant.",
+    "p2t": "Déclaré, puis vérifié",
+    "p2b": "Besoins déclarés, attributions et retraits enregistrés — équivalent numérique d’un carnet de ration tamponné.",
+    "p3t": "Un stock que l’on voit",
+    "p3b": "Stock communautaire et quantités délivrées visibles dans l’app — la même image d’entrepôt pour tous.",
+    "p4t": "Un instrument d’urgence",
+    "p4b": "Pas une panacée contre la faim ni une aide sociale permanente. Pour les crises de marché — nourriture, eau, carburant et biens essentiels.",
+    "cta_band_h": "Voir les règles sur une semaine de pénurie",
+    "cta_band_p": "Essayez FoodAllo sans compte — voyez la part max et les règles selon le besoin.",
+    "cta_band_btn": "Essayer FoodAllo",
+    "faq_kicker": "FAQ",
+    "faq_h2": "Questions honnêtes — et comment FoodAllo répond",
+    "faq_intro": "Les réserves ne sont pas la même chose que qui reçoit quoi. Les plafonds stoppent le stockage. L’accès multi-canal inclut les personnes sans téléphone.",
+    "faq1_q": "Les stocks ne suffisent-ils pas ?",
+    "faq1_a": "Les stocks répondent au quoi et où — pas au qui reçoit quoi quand. ESVG § 11 et AMK point 22 demandent une distribution ordonnée ; la couche d’allocation manque encore.",
+    "faq2_q": "Une app n’exclut-elle pas les personnes sans téléphone ?",
+    "faq2_a": "Une majorité numérique n’est pas une obligation numérique. FoodAllo utilise l’app, le web, un guichet, un voisin ou un représentant, des codes papier et une caisse hors ligne. La même part maximale sur chaque voie.",
+    "faq3_q": "N’est-ce pas de la surveillance ?",
+    "faq3_a": "Limitation de finalité (crise/préparation seulement), minimisation des données (droit + quota, pas de paniers durables), rôles séparés, délais de suppression. Pas de profils de consommation pour les tiers.",
+    "faq4_q": "Le stockage et le marché noir ne contournent-ils pas ?",
+    "faq4_a": "D’où les plafonds et vulnerable-first — visibles dans l’allocation ouverte : une demande de 25 kg de farine est plafonnée ; le premier arrivé vide l’entrepôt.",
+    "faq5_q": "Trop complexe, coûteux, lent ?",
+    "faq5_a": "Déploiement par étapes, pas un big bang : papier → numérique limité → interface de situation. Bien commun, pas de vendor lock-in.",
+    "faq6_q": "Le fédéralisme bloque-t-il tout système ?",
+    "faq6_a": "AMK point 22 demande une coordination nationale et un tableau de situation BLE. FoodAllo est une couche d’allocation avec chef de file clair — pas 16 silos ni une autorité parallèle.",
+    "aid_box": "FoodAllo complète l’aide, il ne la remplace pas — une couche d’allocation, pas une chaîne d’approvisionnement.",
+    "footer_product": "FoodAllo · Allocation alimentaire et non alimentaire",
+    "footer_line": "Bien commun · pas de but lucratif · prêt à l’emploi",
+    "legal_h": "Mention légale",
+    "legal_b": "FoodAllo · projet d’intérêt public · contact via foodallo.com",
+    "title": "FoodAllo — Répartition équitable quand les marchés échouent",
+    "desc": "FoodAllo : répartition équitable des denrées et biens essentiels selon le besoin quand les marchés échouent. Prêt à l’emploi. Bien commun. Gratuit."
+  },
+  "es": {
+    "banner": "FoodAllo · Asignación justa de alimentos y bienes esenciales · Bien común",
+    "nav_why": "Cómo funciona",
+    "nav_demo": "Probar FoodAllo",
+    "nav_analog": "Sin smartphone",
+    "nav_elim": "Por qué fallan otras vías",
+    "nav_resp": "Para intervinientes",
+    "nav_faq": "FAQ",
+    "kicker": "Bien común · Asignación justa · Listo para usar",
+    "h1": "Cuando el mercado falla, el dinero solo no basta.",
+    "lead": "FoodAllo muestra cuotas justas según necesidad — no «quien llega primero». El stock solo no dice quién lo recibe.",
+    "s1t": "Problema",
+    "s1b": "Abastecimiento alterado. El stock solo no es distribución justa.",
+    "s2t": "Comparar",
+    "s2b": "Quien llega primero vs cuotas según necesidad.",
+    "s3t": "Resultado",
+    "s3b": "Mismas reglas para todos — también sin smartphone.",
+    "cta_demo": "Probar FoodAllo",
+    "cta_why": "Cómo funciona",
+    "fine": "Complementa la ayuda y los stocks — no los sustituye. Gratis · bien común · listo para desplegar.",
+    "fine_resp": "Para intervinientes de crisis",
+    "teaser_badge": "Probar FoodAllo · sin cuenta",
+    "teaser_h2": "Vista previa: cuota máx. en vez de acaparar",
+    "teaser_note": "Cuota justa vs quien llega primero — sin cuenta",
+    "ticker": "Almacén · arroz escaso · harina limitada · fórmula limitada",
+    "compare_label": "Harina de trigo esta semana",
+    "col_household": "Hogar",
+    "col_asked": "Pedido",
+    "col_fair": "Cuota justa",
+    "row_a": "Hogar A · 2 adultos + bebé",
+    "row_b": "Hogar B · solicitud de acaparamiento",
+    "clarity": "Con reglas: B recibe 4 kg en vez de 25 — A con bebé conserva harina y fórmula. Sin reglas: B toma 18 kg, almacén vacío, A: 0 kg.",
+    "teaser_reserve": "La asignación responde quién recibe qué cuándo — las reservas solas no.",
+    "teaser_analog": "Sin smartphone: ventanilla / vecino / código en papel — misma cuota máx.",
+    "teaser_footer": "Bien común · sin ánimo de lucro · listo para usar",
+    "why_kicker": "Principios",
+    "why_h2": "Igual dignidad. Necesidad, no influencia. Cuotas visibles.",
+    "p1t": "Cuota justa, no quien llega primero",
+    "p1b": "Baselines semanales por persona; bebés, niños y mayores primero cuando el stock escasea. Ningún hogar por encima de una franja limitada del stock restante.",
+    "p2t": "Declarado, luego comprobado",
+    "p2b": "Necesidades declaradas, asignaciones y recogidas registradas — equivalente digital de una cartilla de racionamiento sellada.",
+    "p3t": "Stock que se ve",
+    "p3b": "Stock comunitario y cantidades emitidas visibles en la app — la misma imagen de almacén para todos.",
+    "p4t": "Un instrumento de emergencia",
+    "p4b": "No es una panacea contra el hambre ni una asistencia permanente. Para crisis de mercado — comida, agua, combustible y esenciales.",
+    "cta_band_h": "Ver las reglas en una semana de escasez",
+    "cta_band_p": "Pruebe FoodAllo sin cuenta — vea la cuota máx. y las reglas por necesidad en acción.",
+    "cta_band_btn": "Probar FoodAllo",
+    "faq_kicker": "FAQ",
+    "faq_h2": "Preguntas honestas — y cómo responde FoodAllo",
+    "faq_intro": "Las reservas no son lo mismo que quién recibe qué. Los topes frenan el acaparamiento. El acceso multicanal incluye a quienes no tienen teléfono.",
+    "faq1_q": "¿No bastan las reservas?",
+    "faq1_a": "Los stocks responden al qué y dónde — no al quién recibe qué cuándo. ESVG § 11 y AMK punto 22 piden distribución ordenada; falta la capa de asignación.",
+    "faq2_q": "¿Una app no excluye a quien no tiene teléfono?",
+    "faq2_a": "Una mayoría digital no es una obligación digital. FoodAllo usa app, web, ventanilla, vecino o representante, códigos en papel y caja sin conexión. La misma cuota máxima en cada vía.",
+    "faq3_q": "¿No es vigilancia?",
+    "faq3_a": "Limitación de finalidad (solo crisis/preparación), minimización de datos (derecho + cuota, sin cestas duraderas), roles separados, plazos de borrado. Sin perfiles de consumo para terceros.",
+    "faq4_q": "¿El acaparamiento y el mercado negro no lo eluden?",
+    "faq4_a": "Por eso topes y vulnerable-first — visibles en la asignación abierta: una petición de 25 kg de harina se limita a la baseline; quien llega primero vacía el almacén.",
+    "faq5_q": "¿Demasiado complejo, caro, lento?",
+    "faq5_a": "Despliegue por etapas, no un big bang: papel → digital limitado → interfaz de situación. Bien común, sin vendor lock-in.",
+    "faq6_q": "¿El federalismo bloquea todo sistema?",
+    "faq6_a": "AMK punto 22 pide coordinación nacional y un cuadro de situación BLE. FoodAllo es una capa de asignación con liderazgo claro — no 16 silos ni una autoridad paralela.",
+    "aid_box": "FoodAllo complementa la ayuda, no la sustituye — una capa de asignación, no una cadena de suministro.",
+    "footer_product": "FoodAllo · Asignación de alimentos y no alimentos",
+    "footer_line": "Bien común · sin ánimo de lucro · listo para usar",
+    "legal_h": "Aviso legal",
+    "legal_b": "FoodAllo · proyecto de interés público · contacto vía foodallo.com",
+    "title": "FoodAllo — Asignación justa cuando fallan los mercados",
+    "desc": "FoodAllo: asignación justa de alimentos y bienes esenciales según necesidad cuando fallan los mercados. Listo para usar. Bien común. Gratis."
+  },
+  "uk": {
+    "banner": "FoodAllo · Справедливий розподіл їжі та товарів першої потреби · Суспільне благо",
+    "nav_why": "Як це працює",
+    "nav_demo": "Спробувати FoodAllo",
+    "nav_analog": "Без смартфона",
+    "nav_elim": "Чому інші шляхи не спрацьовують",
+    "nav_resp": "Для реагувальників",
+    "nav_faq": "FAQ",
+    "kicker": "Суспільне благо · Справедливий розподіл · Готово до використання",
+    "h1": "Коли ринок не працює, самих грошей недостатньо.",
+    "lead": "FoodAllo показує справедливі частки за потребою — не «хто перший». Те, що товар на складі, ще не каже, хто його отримає.",
+    "s1t": "Проблема",
+    "s1b": "Постачання порушено. Сам склад — ще не справедливий розподіл.",
+    "s2t": "Порівняння",
+    "s2b": "Хто перший vs частки за потребою.",
+    "s3t": "Результат",
+    "s3b": "Однакові правила для всіх — також без смартфона.",
+    "cta_demo": "Спробувати FoodAllo",
+    "cta_why": "Як це працює",
+    "fine": "Доповнює допомогу і запаси — не замінює їх. Безкоштовно · суспільне благо · готово до розгортання.",
+    "fine_resp": "Для кризових реагувальників",
+    "teaser_badge": "Спробувати FoodAllo · без облікового запису",
+    "teaser_h2": "Перегляд: макс. частка замість скуповування",
+    "teaser_note": "Справедлива частка vs хто перший — без облікового запису",
+    "ticker": "Склад · рис обмежений · борошно обмежене · дитяче харчування обмежене",
+    "compare_label": "Пшеничне борошно цього тижня",
+    "col_household": "Родина",
+    "col_asked": "Запитано",
+    "col_fair": "Справедлива частка",
+    "row_a": "Родина A · 2 дорослих + немовля",
+    "row_b": "Родина B · запит на скуповування",
+    "clarity": "З правилами: B отримує 4 кг замість 25 — A з немовлям зберігає борошно і харчування. Без правил: B бере 18 кг, склад порожній, A: 0 кг.",
+    "teaser_reserve": "Розподіл відповідає, хто що коли отримує — самі резерви ні.",
+    "teaser_analog": "Без смартфона: каса / сусід / паперовий код — та сама макс. частка.",
+    "teaser_footer": "Суспільне благо · без прибутку · готово до використання",
+    "why_kicker": "Принципи",
+    "why_h2": "Рівна гідність. Потреба, не вплив. Видимі частки.",
+    "p1t": "Справедлива частка, не хто перший",
+    "p1b": "Тижневі базові норми на особу; за дефіциту спочатку немовлята, діти, літні. Жодна родина понад обмежену частку залишку на складі.",
+    "p2t": "Заявлено, потім перевірено",
+    "p2b": "Потреби заявлені, видачі та отримання зафіксовані — цифровий аналог проштампованої картки.",
+    "p3t": "Склад, який видно",
+    "p3b": "Спільний склад і видані обсяги видно в застосунку — однакова картина складу для всіх.",
+    "p4t": "Інструмент надзвичайної ситуації",
+    "p4b": "Не панацея від голоду і не постійна соцдопомога. Для криз з порушеним ринком — їжа, вода, паливо та товари першої потреби.",
+    "cta_band_h": "Побачити правила на тижні дефіциту",
+    "cta_band_p": "Спробуйте FoodAllo без облікового запису — побачте макс. частку та правила за потребою.",
+    "cta_band_btn": "Спробувати FoodAllo",
+    "faq_kicker": "FAQ",
+    "faq_h2": "Чесні запитання — і як FoodAllo відповідає",
+    "faq_intro": "Резерви — це не те саме, що хто що отримує. Ліміти зупиняють скуповування. Багатоканальний доступ включає людей без телефону.",
+    "faq1_q": "Чи не достатньо запасів?",
+    "faq1_a": "Запаси відповідають на що і де — не на хто що коли отримує. ESVG § 11 і пункт AMK 22 вимагають упорядкованого розподілу; шар розподілу все ще відсутній.",
+    "faq2_q": "Чи не виключає застосунок людей без телефону?",
+    "faq2_a": "Цифрова більшість не є цифровим обов’язком. FoodAllo використовує застосунок, веб, касу, сусіда або представника, паперові коди та офлайн-касу. Та сама максимальна частка на кожному шляху.",
+    "faq3_q": "Чи це не стеження?",
+    "faq3_a": "Обмеження мети (лише криза/підготовка), мінімізація даних (право + квота, без тривалих кошиків), розділені ролі, строки видалення. Без споживчих профілів для сторонніх.",
+    "faq4_q": "Чи не обійдуть скуповування та чорний ринок?",
+    "faq4_a": "Тому ліміти і vulnerable-first — видно у відкритому розподілі: запит на 25 кг борошна обрізається до базової норми; хто перший — спорожнює склад.",
+    "faq5_q": "Занадто складно, дорого, повільно?",
+    "faq5_a": "Поетапне впровадження, не big bang: папір → обмежений цифровий → інтерфейс ситуаційної картини. Суспільне благо, без vendor lock-in.",
+    "faq6_q": "Чи блокує федералізм будь-яку систему?",
+    "faq6_a": "Пункт AMK 22 вимагає загальнонаціональної координації та ситуаційної картини BLE. FoodAllo — шар розподілу з чітким лідерством — не 16 силоси і не паралельний орган.",
+    "aid_box": "FoodAllo доповнює допомогу, не замінює її — шар розподілу, а не ланцюг постачання.",
+    "footer_product": "FoodAllo · Розподіл їжі та non-food",
+    "footer_line": "Суспільне благо · без прибутку · готово до використання",
+    "legal_h": "Правова примітка",
+    "legal_b": "FoodAllo · проєкт суспільного інтересу · контакт через foodallo.com",
+    "title": "FoodAllo — Справедливий розподіл, коли ринки не працюють",
+    "desc": "FoodAllo: справедливий розподіл їжі та товарів першої потреби за потребою, коли ринки не працюють. Готово до використання. Суспільне благо. Безкоштовно."
+  }
+};
+  var cur = "en";
+  var q = new URLSearchParams(location.search).get("lang");
+  if (q && I18N[q]) cur = q;
+  function t(k) {
+    return (I18N[cur] && I18N[cur][k] != null) ? I18N[cur][k] : (I18N.en[k] || k);
+  }
+  function apply() {
+    try {
+      var url = new URL(location.href);
+      url.searchParams.set("lang", cur);
+      history.replaceState(null, "", url);
+    } catch (e) {}
+    document.body.setAttribute("data-lang", cur);
+    document.documentElement.lang = cur === "uk" ? "uk" : cur;
+    document.title = t("title");
+    var md = document.querySelector('meta[name="description"]');
+    if (md) md.setAttribute("content", t("desc"));
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      el.textContent = t(el.getAttribute("data-i18n"));
+    });
+    document.querySelectorAll("[data-lang-btn]").forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-lang-btn") === cur ? "true" : "false");
+    });
+  }
+  document.querySelectorAll("[data-lang-btn]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      cur = b.getAttribute("data-lang-btn");
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
+
 </body>
 </html>
