@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FoodAllo — For public authorities</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <meta name="description" content="FoodAllo for public authorities and preparedness: a free allocation layer for who gets what when markets fail. Complements stockpiles and crisis law — does not replace them." />
+  <link rel="canonical" href="https://foodallo.github.io/foodallo-open-concept/for-authorities.html" />
+  <meta name="theme-color" content="#F6A959" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FoodAllo" />
+  <meta property="og:title" content="FoodAllo — For public authorities" />
+  <meta property="og:description" content="A free allocation layer for who gets what when markets fail. Complements stockpiles and legal preparedness — not a commercial pitch." />
+  <meta property="og:url" content="https://foodallo.github.io/foodallo-open-concept/for-authorities.html" />
+  <meta property="og:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
+  <meta property="og:image:alt" content="FoodAllo logo" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FoodAllo — For public authorities" />
+  <meta name="twitter:description" content="A free allocation layer for who gets what when markets fail. Complements stockpiles and legal preparedness — not a commercial pitch." />
+  <meta name="twitter:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "FoodAllo — For public authorities",
+    "url": "https://foodallo.github.io/foodallo-open-concept/for-authorities.html",
+    "description": "How FoodAllo complements public stockpiles and crisis preparedness as an allocation layer for who gets what when markets fail.",
+    "isPartOf": {"@type": "WebSite", "name": "FoodAllo", "url": "https://foodallo.github.io/foodallo-open-concept/"},
+    "inLanguage": ["en", "de"],
+    "isAccessibleForFree": true
+  }
+  </script>
+  <style>
+    :root {
+      --ink: #1c1a16; --ink-soft: #3a342c; --muted: #6b6358;
+      --olive: #5c6b3a; --olive-deep: #45522c; --primary: #e8943a;
+      --paper: #f7f1e6; --paper-deep: #ebe3d4; --card: #fffdf8;
+      --border: #e0d6c6; --ok: #3f6212;
+      --shadow: 0 0 0 1px rgba(28,26,22,.06), 0 8px 24px rgba(28,26,22,.06);
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .mock-banner { background: #2f3a22; color: #e8efd8; font-size: .85rem; padding: .6rem 1.25rem; text-align: center; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+    a { color: var(--olive); }
+    .wrap { max-width: 42rem; margin: 0 auto; padding: 0 1.25rem 3rem; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.25rem 0; flex-wrap: wrap; }
+    .brand { display: flex; align-items: center; gap: .6rem; font-weight: 600; text-decoration: none; color: var(--ink); }
+    .logo-img { height: 2rem; width: auto; display: block; }
+    .nav { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+    .nav a { font-size: .875rem; color: var(--muted); text-decoration: none; margin-left: .35rem; }
+    .nav a:hover { color: var(--ink); }
+    .badge { display: inline-block; font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--olive); margin: 0 0 .75rem; }
+    h1 { font-family: var(--font); font-weight: 500; font-size: clamp(1.6rem, 4vw, 2.2rem); letter-spacing: -.02em; line-height: 1.15; margin: .4rem 0 0; }
+    h2 { font-family: var(--font); font-weight: 500; font-size: 1.25rem; margin: 2rem 0 .65rem; }
+    .lead { margin: .85rem 0 1.5rem; color: var(--ink-soft); }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: .75rem;
+      padding: 1rem 1.1rem; margin: .85rem 0; box-shadow: var(--shadow);
+    }
+    .card h3 { margin: 0 0 .35rem; font-size: 1rem; }
+    .card p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
+    ul.clean { margin: .5rem 0 0; padding-left: 1.15rem; color: var(--ink-soft); }
+    ul.clean li { margin: .35rem 0; }
+    .ctas { display: flex; flex-wrap: wrap; gap: .65rem; margin: 1.5rem 0 1rem; }
+    .btn {
+      display: inline-block; text-decoration: none; font-weight: 600; font-size: .9rem;
+      padding: .65rem 1rem; border-radius: .55rem;
+    }
+    .btn-primary { background: var(--primary); color: #1c1a16; }
+    .btn-secondary { background: var(--card); color: var(--ink); border: 1px solid var(--border); }
+    .fine { font-size: .88rem; color: var(--muted); }
+    footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
+    .lang { display: inline-flex; border: 1px solid var(--border); border-radius: .5rem; overflow: hidden; background: var(--card); flex-wrap: wrap; }
+    .lang button { border: 0; background: transparent; padding: .4rem .55rem; font: inherit; font-size: .72rem; font-weight: 700; color: var(--muted); cursor: pointer; letter-spacing: .02em; }
+    .lang button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  </style>
+</head>
+<body data-lang="en">
+  <div class="mock-banner" data-i18n="banner">FoodAllo · Fair allocation of food and essentials · Public interest</div>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./">
+        <img class="logo-img" src="logo-header.png" alt="FoodAllo" width="156" height="48" />
+      </a>
+      <div class="nav">
+        <a href="./" data-i18n="nav_home">Home</a>
+        <a href="demo.html?preset=markt" data-i18n="nav_demo">Try FoodAllo</a>
+        <a href="for-responders.html" data-i18n="nav_resp">For responders</a>
+        <a href="./#faq" data-i18n="nav_faq">FAQ</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang-btn="de" aria-pressed="false">DE</button>
+          <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <p class="badge" data-i18n="badge">For public authorities · Ready to review</p>
+      <h1 data-i18n="h1">Stockpiles answer that and where. Allocation answers who gets what when.</h1>
+      <p class="lead" data-i18n="lead">FoodAllo is a free, public-interest allocation layer for food and life-essential non-food when markets fail. It sits next to national and local preparedness — stockpiles, crisis law, and aid — and does not replace them. This is not a commercial offer.</p>
+
+      <div class="card">
+        <h3 data-i18n="who_h">Who this page is for</h3>
+        <p data-i18n="who_p">Ministries, municipalities, preparedness units, and coordination desks that must keep fair distribution workable when money alone no longer clears the market — including people without smartphones.</p>
+      </div>
+
+      <h2 data-i18n="gap_h">The gap FoodAllo addresses</h2>
+      <ul class="clean">
+        <li data-i18n="gap1">Reserves and logistics say what is available and where it sits — not who is entitled to how much under shortage.</li>
+        <li data-i18n="gap2">First-come issue empties warehouses and leaves vulnerable households behind.</li>
+        <li data-i18n="gap3">Digital-only tools exclude people who need desk, proxy, or paper access.</li>
+        <li data-i18n="gap4">Without published rules, crisis allocation becomes opaque and hard to defend.</li>
+      </ul>
+
+      <h2 data-i18n="adds_h">What FoodAllo adds as a layer</h2>
+      <ul class="clean">
+        <li data-i18n="adds1">Need-based shares with vulnerable-first baselines when stock is tight.</li>
+        <li data-i18n="adds2">Household caps so hoarding cannot empty the warehouse.</li>
+        <li data-i18n="adds3">Multi-channel access: app, web, municipal/retail desk, neighbour/proxy, paper emergency codes — same max share.</li>
+        <li data-i18n="adds4">Transparent rules and an open elimination walkthrough you can review before a crisis.</li>
+        <li data-i18n="adds5">A staged path: paper start → limited digital → situation-picture interface — not a big-bang IT programme.</li>
+      </ul>
+
+      <h2 data-i18n="not_h">What FoodAllo is not</h2>
+      <ul class="clean">
+        <li data-i18n="not1">Not a claim to end all hunger or produce food</li>
+        <li data-i18n="not2">Not a substitute for crisis law, national stockpiles, or humanitarian pipelines</li>
+        <li data-i18n="not3">Not standing welfare or consumer surveillance profiling</li>
+        <li data-i18n="not4">Not a paid product, paid boost, or vendor lock-in pitch</li>
+        <li data-i18n="not5">Not an official government system and not an impersonation of one</li>
+      </ul>
+
+      <div class="card">
+        <h3 data-i18n="fit_h">How it fits preparedness work</h3>
+        <p data-i18n="fit_p">Treat FoodAllo as the missing allocation layer beside existing instruments: stockpiles for availability, law for authority, and a fair who-gets-what mechanism for issue under shortage. Use the public demos as a shared reference for technical and policy review — free, project-first, no account required.</p>
+      </div>
+
+      <h2 data-i18n="try_h">Review it now — no account</h2>
+      <p class="fine" data-i18n="try_p">Open allocation compares first-come versus shares by need under a market-disrupted preset.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="demo.html?preset=markt" data-i18n="btn_demo">Open market-disrupted demo</a>
+        <a class="btn btn-secondary" href="analog.html" data-i18n="btn_analog">Same rules without a phone</a>
+        <a class="btn btn-secondary" href="for-responders.html" data-i18n="btn_resp">For crisis responders</a>
+      </div>
+
+      <p class="fine"><span data-i18n="canonical">Canonical English entry:</span> <a href="https://foodallo.github.io/foodallo-open-concept/">foodallo.github.io/foodallo-open-concept</a> · <span data-i18n="channel">Project channel:</span> <a href="https://x.com/food_allo" rel="noopener">@food_allo</a></p>
+    </main>
+
+    <footer data-i18n="footer">
+      FoodAllo · Public interest · no profit motive · ready to use · Complements stockpiles and law — does not replace them.
+    </footer>
+  </div>
+
+<script>
+(function () {
+  var I18N = {
+  "en": {
+    "banner": "FoodAllo · Fair allocation of food and essentials · Public interest",
+    "nav_home": "Home",
+    "nav_demo": "Try FoodAllo",
+    "nav_resp": "For responders",
+    "nav_faq": "FAQ",
+    "badge": "For public authorities · Ready to review",
+    "h1": "Stockpiles answer that and where. Allocation answers who gets what when.",
+    "lead": "FoodAllo is a free, public-interest allocation layer for food and life-essential non-food when markets fail. It sits next to national and local preparedness — stockpiles, crisis law, and aid — and does not replace them. This is not a commercial offer.",
+    "who_h": "Who this page is for",
+    "who_p": "Ministries, municipalities, preparedness units, and coordination desks that must keep fair distribution workable when money alone no longer clears the market — including people without smartphones.",
+    "gap_h": "The gap FoodAllo addresses",
+    "gap1": "Reserves and logistics say what is available and where it sits — not who is entitled to how much under shortage.",
+    "gap2": "First-come issue empties warehouses and leaves vulnerable households behind.",
+    "gap3": "Digital-only tools exclude people who need desk, proxy, or paper access.",
+    "gap4": "Without published rules, crisis allocation becomes opaque and hard to defend.",
+    "adds_h": "What FoodAllo adds as a layer",
+    "adds1": "Need-based shares with vulnerable-first baselines when stock is tight.",
+    "adds2": "Household caps so hoarding cannot empty the warehouse.",
+    "adds3": "Multi-channel access: app, web, municipal/retail desk, neighbour/proxy, paper emergency codes — same max share.",
+    "adds4": "Transparent rules and an open elimination walkthrough you can review before a crisis.",
+    "adds5": "A staged path: paper start → limited digital → situation-picture interface — not a big-bang IT programme.",
+    "not_h": "What FoodAllo is not",
+    "not1": "Not a claim to end all hunger or produce food",
+    "not2": "Not a substitute for crisis law, national stockpiles, or humanitarian pipelines",
+    "not3": "Not standing welfare or consumer surveillance profiling",
+    "not4": "Not a paid product, paid boost, or vendor lock-in pitch",
+    "not5": "Not an official government system and not an impersonation of one",
+    "fit_h": "How it fits preparedness work",
+    "fit_p": "Treat FoodAllo as the missing allocation layer beside existing instruments: stockpiles for availability, law for authority, and a fair who-gets-what mechanism for issue under shortage. Use the public demos as a shared reference for technical and policy review — free, project-first, no account required.",
+    "try_h": "Review it now — no account",
+    "try_p": "Open allocation compares first-come versus shares by need under a market-disrupted preset.",
+    "btn_demo": "Open market-disrupted demo",
+    "btn_analog": "Same rules without a phone",
+    "btn_resp": "For crisis responders",
+    "canonical": "Canonical English entry:",
+    "channel": "Project channel:",
+    "footer": "FoodAllo · Public interest · no profit motive · ready to use · Complements stockpiles and law — does not replace them.",
+    "title": "FoodAllo — For public authorities",
+    "desc": "FoodAllo for public authorities and preparedness: a free allocation layer for who gets what when markets fail. Complements stockpiles and crisis law — does not replace them."
+  },
+  "de": {
+    "banner": "FoodAllo · Faire Zuteilung von Lebensmitteln und Bedarfsgütern · Gemeinwohl",
+    "nav_home": "Start",
+    "nav_demo": "FoodAllo ausprobieren",
+    "nav_resp": "Für Einsatzkräfte",
+    "nav_faq": "FAQ",
+    "badge": "Für Behörden · Zur Prüfung bereit",
+    "h1": "Lager beantworten Was und Wo. Zuteilung beantwortet Wer was wann bekommt.",
+    "lead": "FoodAllo ist eine kostenlose Gemeinwohl-Zuteilungsschicht für Lebensmittel und lebenswichtige Non-Food-Güter, wenn Märkte ausfallen. Sie steht neben nationaler und lokaler Vorsorge — Lager, Krisenrecht und Hilfe — und ersetzt sie nicht. Dies ist kein kommerzielles Angebot.",
+    "who_h": "Für wen diese Seite ist",
+    "who_p": "Ministerien, Kommunen, Vorsorgestellen und Koordinierungsstellen, die faire Verteilung aufrechterhalten müssen, wenn Geld allein den Markt nicht mehr räumt — einschließlich Menschen ohne Smartphone.",
+    "gap_h": "Die Lücke, die FoodAllo schließt",
+    "gap1": "Vorräte und Logistik sagen, was verfügbar ist und wo es liegt — nicht, wer unter Knappheit wie viel Anspruch hat.",
+    "gap2": "Ausgabe nach Tempo leert Lager und lässt vulnerable Haushalte zurück.",
+    "gap3": "Rein digitale Tools schließen Menschen aus, die Schalter, Vertretung oder Papier brauchen.",
+    "gap4": "Ohne veröffentlichte Regeln wird Krisenzuteilung undurchsichtig und schwer vermittelbar.",
+    "adds_h": "Was FoodAllo als Schicht hinzufügt",
+    "adds1": "Anteile nach Bedarf mit Vulnerable-first-Baselines bei enger Lage.",
+    "adds2": "Haushalts-Obergrenzen, damit Hamstern das Lager nicht leeren kann.",
+    "adds3": "Mehrkanalzugang: App, Web, kommunaler/Einzelhandels-Schalter, Nachbar/Vertretung, Papier-Notfallcodes — gleicher Höchstanteil.",
+    "adds4": "Transparente Regeln und ein offener Eliminations-Walkthrough zur Prüfung vor der Krise.",
+    "adds5": "Stufenweg: Papierstart → begrenztes Digital → Lagebild-Schnittstelle — kein Big-Bang-IT-Programm.",
+    "not_h": "Was FoodAllo nicht ist",
+    "not1": "Kein Anspruch, allen Hunger zu beenden oder Nahrung zu produzieren",
+    "not2": "Kein Ersatz für Krisenrecht, nationale Lager oder humanitäre Pipelines",
+    "not3": "Keine Dauerversorgung und kein Konsum-Überwachungsprofil",
+    "not4": "Kein bezahltes Produkt, kein Paid Boost und kein Vendor-Lock-in-Pitch",
+    "not5": "Kein offizielles Behördensystem und keine Impersonation eines solchen",
+    "fit_h": "Wie es in die Vorsorge passt",
+    "fit_p": "FoodAllo als fehlende Zuteilungsschicht neben bestehenden Instrumenten behandeln: Lager für Verfügbarkeit, Recht für Befugnis, und ein faires Wer-was-wann für die Ausgabe unter Knappheit. Die öffentlichen Demos dienen als gemeinsame Referenz für Fach- und Politikprüfung — kostenlos, projektzentriert, ohne Account.",
+    "try_h": "Jetzt prüfen — kein Account",
+    "try_p": "Die offene Zuteilung vergleicht wer-zuerst-kommt mit Anteilen nach Bedarf unter dem Preset „Markt gestört“.",
+    "btn_demo": "Markt-gestörte Demo öffnen",
+    "btn_analog": "Gleiche Regeln ohne Handy",
+    "btn_resp": "Für Krisen-Einsatzkräfte",
+    "canonical": "Kanonischer Einstieg:",
+    "channel": "Projektkanal:",
+    "footer": "FoodAllo · Gemeinwohl · kein Gewinnziel · startklar · Ergänzt Lager und Recht — ersetzt sie nicht.",
+    "title": "FoodAllo — Für Behörden",
+    "desc": "FoodAllo für Behörden und Vorsorge: kostenlose Zuteilungsschicht für Wer was wann, wenn Märkte ausfallen. Ergänzt Lager und Krisenrecht — ersetzt sie nicht."
+  }
+  };
+
+  function apply(lang) {
+    var pack = I18N[lang] || I18N.en;
+    document.documentElement.lang = lang;
+    document.body.setAttribute("data-lang", lang);
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n");
+      if (pack[key] != null) el.textContent = pack[key];
+    });
+    if (pack.title) document.title = pack.title;
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta && pack.desc) meta.setAttribute("content", pack.desc);
+    document.querySelectorAll("[data-lang-btn]").forEach(function (btn) {
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-lang-btn") === lang ? "true" : "false");
+    });
+    try { localStorage.setItem("foodallo-lang", lang); } catch (e) {}
+  }
+
+  document.querySelectorAll("[data-lang-btn]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      apply(btn.getAttribute("data-lang-btn"));
+    });
+  });
+
+  var start = "en";
+  try {
+    var saved = localStorage.getItem("foodallo-lang");
+    if (saved === "de" || saved === "en") start = saved;
+    else if ((navigator.language || "").toLowerCase().indexOf("de") === 0) start = "de";
+  } catch (e) {}
+  apply(start);
+})();
+</script>
+</body>
+</html>

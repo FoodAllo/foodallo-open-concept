@@ -12,6 +12,7 @@ Canonical site: https://foodallo.github.io/foodallo-open-concept/
 - [No smartphone / analog channel](https://foodallo.github.io/foodallo-open-concept/analog.html): Desk, neighbour/proxy, paper code — same max share.
 - [Elimination engine](https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html): Transparent rule walkthrough.
 - [For crisis responders](https://foodallo.github.io/foodallo-open-concept/for-responders.html): How FoodAllo complements aid and stockpiles; how to apply the allocation layer.
+- [For public authorities](https://foodallo.github.io/foodallo-open-concept/for-authorities.html): How FoodAllo complements stockpiles and crisis law as an allocation layer; not a commercial offer.
 - [Source README](https://github.com/FoodAllo/foodallo-open-concept): Public GitHub concept and pages.
 
 ## What FoodAllo is
