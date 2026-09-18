@@ -27,7 +27,20 @@
         "name": "FoodAllo",
         "url": "https://foodallo.github.io/foodallo-open-concept/",
         "description": "Fair allocation of food and essentials by need when markets fail. Free, public interest, ready to use. Complements aid and stockpiles — does not replace them.",
-        "inLanguage": "en"
+        "inLanguage": "en",
+        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://foodallo.github.io/foodallo-open-concept/#org",
+        "name": "FoodAllo",
+        "url": "https://foodallo.github.io/foodallo-open-concept/",
+        "description": "Public-interest food and essentials allocation when markets fail. Free, ready to use. Complements aid — does not replace it.",
+        "sameAs": [
+          "https://x.com/food_allo",
+          "https://www.youtube.com/@FoodAllo",
+          "https://github.com/FoodAllo/foodallo-open-concept"
+        ]
       },
       {
         "@type": "SoftwareApplication",
@@ -37,7 +50,62 @@
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
         "url": "https://foodallo.github.io/foodallo-open-concept/",
         "description": "Need-based food and essentials allocation when markets fail. No account required. Multi-channel access including without a smartphone.",
-        "isAccessibleForFree": true
+        "isAccessibleForFree": true,
+        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
+      },
+      {
+        "@type": "FAQPage",
+        "url": "https://foodallo.github.io/foodallo-open-concept/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Aren't reserves + ESVG enough?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stockpiles answer that and where — not who gets what when. ESVG § 11 and AMK item 22 call for orderly distribution; the allocation layer is still missing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Doesn't an app exclude people without phones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Digital majority is not digital obligation. FoodAllo uses app, web, desk (municipality/retail), proxy for relatives, paper emergency codes, and offline checkout validation. Multi-channel access is mandatory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Isn't this surveillance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Purpose limitation (crisis/preparedness only), data minimization (entitlement and quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Won't hoarding and black markets bypass it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Caps and vulnerable-first rules stop hoarding from emptying the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Too complex, costly, slow?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Staged rollout, not a big bang: paper start, then limited digital, then situation-picture interface. Public interest, no vendor lock-in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does federalism block every system?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority."
+            }
+          }
+        ]
       }
     ]
   }
