@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://foodallo.github.io/foodallo-open-concept/sitemap.xml
