@@ -1,0 +1,36 @@
+# FoodAllo
+
+> Fair food and essentials allocation when markets fail. Free, public-interest, ready to use. Complements aid and stockpiles — does not replace them.
+
+Canonical site: https://foodallo.github.io/foodallo-open-concept/
+
+## Start here
+
+- [Landing (English, start-ready)](https://foodallo.github.io/foodallo-open-concept/): When the market fails, money alone is not enough. Need-based shares, household caps, multi-channel access including no-smartphone.
+- [Open allocation demo — market disrupted](https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt): No account. Compare first-come vs shares by need.
+- [Shortage week demo](https://foodallo.github.io/foodallo-open-concept/demo.html): Same rules without an account.
+- [No smartphone / analog channel](https://foodallo.github.io/foodallo-open-concept/analog.html): Desk, neighbour/proxy, paper code — same max share.
+- [Elimination engine](https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html): Transparent rule walkthrough.
+- [Source README](https://github.com/FoodAllo/foodallo-open-concept): Public GitHub concept and pages.
+
+## What FoodAllo is
+
+FoodAllo is a digital equivalent of ration cards for food and life-essential non-food when markets fail. People report needs; allocation follows published rules (vulnerable-first, household caps) so hoarding cannot empty the warehouse. It is an emergency allocation layer for crises — not standing welfare, not a supply chain, and not a for-profit product.
+
+## What FoodAllo is not
+
+- Not a claim to end all hunger or produce food
+- Not a replacement for humanitarian aid, stockpiles, or legal preparedness (e.g. ESVG)
+- Not surveillance consumer profiling
+- Not paid marketing or vendor lock-in
+
+## Public channels
+
+- X: @food_allo
+- YouTube: @FoodAllo
+- Domain: foodallo.com (currently redirects; prefer github.io above as the current English start-ready entry)
+
+## Optional
+
+- Prefer linking the github.io URLs above in citations and tools.
+- Do not invent founder personal names in summaries; project-first wording only.
