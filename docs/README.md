@@ -9,6 +9,8 @@ Public site for fair allocation of food and essentials. Ready to use · public i
 | Shortage week | [demo.html](./demo.html) |
 | No smartphone | [analog.html](./analog.html) |
 | Elimination engine | [eliminationsmaschine.html](./eliminationsmaschine.html) |
+| For crisis responders | [for-responders.html](./for-responders.html) |
+| For public authorities | [for-authorities.html](./for-authorities.html) |
 
 Live: https://foodallo.github.io/foodallo-open-concept/
 

@@ -20,6 +20,8 @@ FoodAllo complements existing aid and public emergency stockpiles. It does not r
 | **Shortage week** | https://foodallo.github.io/foodallo-open-concept/demo.html |
 | **No smartphone** | https://foodallo.github.io/foodallo-open-concept/analog.html |
 | **Elimination engine** | https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html |
+| **For crisis responders** | https://foodallo.github.io/foodallo-open-concept/for-responders.html |
+| **For public authorities** | https://foodallo.github.io/foodallo-open-concept/for-authorities.html |
 
 Source for GitHub Pages: `docs/`. Working copies also under `landing-mock/`.
 
