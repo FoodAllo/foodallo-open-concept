@@ -20,123 +20,131 @@
   <meta name="twitter:description" content="Fair shares by need, not first come. Free, public interest, ready to use — including without a smartphone." />
   <meta name="twitter:image" content="https://foodallo.github.io/foodallo-open-concept/logo-header.png" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "name": "FoodAllo",
-        "url": "https://foodallo.github.io/foodallo-open-concept/",
-        "description": "Fair allocation of food and essentials by need when markets fail. Free, public interest, ready to use. Complements aid and stockpiles — does not replace them.",
-        "inLanguage": "en",
-        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://foodallo.github.io/foodallo-open-concept/#org",
-        "name": "FoodAllo",
-        "url": "https://foodallo.github.io/foodallo-open-concept/",
-        "description": "Public-interest food and essentials allocation when markets fail. Free, ready to use. Complements aid — does not replace it.",
-        "sameAs": [
-          "https://x.com/food_allo",
-          "https://www.youtube.com/@FoodAllo",
-          "https://github.com/FoodAllo/foodallo-open-concept"
-        ]
-      },
-      {
-        "@type": "SoftwareApplication",
-        "name": "FoodAllo",
-        "applicationCategory": "WebApplication",
-        "operatingSystem": "Web",
-        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-        "url": "https://foodallo.github.io/foodallo-open-concept/",
-        "description": "Need-based food and essentials allocation when markets fail. No account required. Multi-channel access including without a smartphone.",
-        "isAccessibleForFree": true,
-        "publisher": {"@id": "https://foodallo.github.io/foodallo-open-concept/#org"}
-      },
-      {
-        "@type": "HowTo",
-        "name": "Try FoodAllo without an account",
-        "description": "Open the public market-disrupted allocation demo and compare first-come versus need-based shares.",
-        "totalTime": "PT5M",
-        "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Open the market-disrupted demo",
-            "text": "Go to the FoodAllo open allocation demo with the market-disrupted preset. No account required.",
-            "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Compare first come vs shares by need",
-            "text": "Inspect how household caps and vulnerable-first rules change outcomes when stock is tight."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Check no-smartphone access",
-            "text": "Open the analog channel page to see desk, neighbour/proxy, and paper-code paths with the same max share.",
-            "url": "https://foodallo.github.io/foodallo-open-concept/analog.html"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "url": "https://foodallo.github.io/foodallo-open-concept/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Aren't reserves + ESVG enough?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Stockpiles answer that and where — not who gets what when. ESVG § 11 and AMK item 22 call for orderly distribution; the allocation layer is still missing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Doesn't an app exclude people without phones?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Digital majority is not digital obligation. FoodAllo uses app, web, desk (municipality/retail), proxy for relatives, paper emergency codes, and offline checkout validation. Multi-channel access is mandatory."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Isn't this surveillance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Purpose limitation (crisis/preparedness only), data minimization (entitlement and quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Won't hoarding and black markets bypass it?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Caps and vulnerable-first rules stop hoarding from emptying the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Too complex, costly, slow?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Staged rollout, not a big bang: paper start, then limited digital, then situation-picture interface. Public interest, no vendor lock-in."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does federalism block every system?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority."
-            }
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "FoodAllo",
+      "url": "https://foodallo.github.io/foodallo-open-concept/",
+      "description": "Fair allocation of food and essentials by need when markets fail. Free, public interest, ready to use. Complements aid and stockpiles — does not replace them.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://foodallo.github.io/foodallo-open-concept/#org"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://foodallo.github.io/foodallo-open-concept/#org",
+      "name": "FoodAllo",
+      "url": "https://foodallo.github.io/foodallo-open-concept/",
+      "description": "Public-interest food and essentials allocation when markets fail. Free, ready to use. Complements aid — does not replace it.",
+      "sameAs": [
+        "https://x.com/food_allo",
+        "https://www.youtube.com/@FoodAllo",
+        "https://github.com/FoodAllo/foodallo-open-concept"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FoodAllo",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "url": "https://foodallo.github.io/foodallo-open-concept/",
+      "description": "Need-based food and essentials allocation when markets fail. No account required. Multi-channel access including without a smartphone.",
+      "isAccessibleForFree": true,
+      "publisher": {
+        "@id": "https://foodallo.github.io/foodallo-open-concept/#org"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "Try FoodAllo without an account",
+      "description": "Open the public market-disrupted allocation demo and compare first-come versus need-based shares.",
+      "totalTime": "PT5M",
+      "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Open the market-disrupted demo",
+          "text": "Go to the FoodAllo open allocation demo with the market-disrupted preset. No account required.",
+          "url": "https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Compare first come vs shares by need",
+          "text": "Inspect how household limits and priority for infants, children, and elderly change outcomes when stock is tight."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Check no-smartphone access",
+          "text": "Open the analog channel page to see desk, neighbour/proxy, and paper-code paths with the same max share.",
+          "url": "https://foodallo.github.io/foodallo-open-concept/analog.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "url": "https://foodallo.github.io/foodallo-open-concept/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aren't reserves + ESVG enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stockpiles answer that and where — not who gets what when. ESVG § 11 and AMK item 22 call for orderly distribution; the allocation layer is still missing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Doesn't an app exclude people without phones?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital majority is not digital obligation. FoodAllo uses app, web, desk (municipality/retail), proxy for relatives, paper emergency codes, and offline checkout validation. Multi-channel access is mandatory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Isn't this surveillance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Purpose limitation (crisis/preparedness only), data minimization (entitlement and quota, no lasting baskets), separated roles, deletion windows. No consumer profiles for bystanders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Won't hoarding and black markets bypass it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That is why there are limits, and why infants, children, and elderly go first. In the public walkthrough, a 25 kg flour request is cut to the weekly share; first-come empties the warehouse. When fairness is visible at checkout, more people accept the rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Too complex, costly, slow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roll out in stages, not everything at once: paper first, then limited digital tools, then a shared situation view. Built for the public interest — not locked to one vendor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does federalism block every system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
     :root {
       --ink: #1c1a16;
@@ -520,12 +528,12 @@
 
       <details class="faq-item">
         <summary data-i18n="faq4_q">Won’t hoarding and black markets bypass it?</summary>
-        <p data-i18n="faq4_a">That’s why caps and vulnerable-first — visible in Open allocation: a 25 kg flour request is capped to baseline; first-come empties the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible.</p>
+        <p data-i18n="faq4_a">That is why there are limits, and why infants, children, and elderly go first. In the public walkthrough, a 25 kg flour request is cut to the weekly share; first-come empties the warehouse. When fairness is visible at checkout, more people accept the rules.</p>
       </details>
 
       <details class="faq-item">
         <summary data-i18n="faq5_q">Too complex, costly, slow?</summary>
-        <p data-i18n="faq5_a">Staged rollout, not a big bang: paper start → limited digital → situation-picture interface. Public interest, no vendor lock-in.</p>
+        <p data-i18n="faq5_a">Roll out in stages, not everything at once: paper first, then limited digital tools, then a shared situation view. Built for the public interest — not locked to one vendor.</p>
       </details>
 
       <details class="faq-item">
@@ -621,9 +629,9 @@
     "faq3_q": "Isn’t this surveillance?",
     "faq3_a": "It records entitlement and the weekly share, not shopping profiles. Used only in a crisis or drill. Roles are split, and records are deleted after a set window.",
     "faq4_q": "Won’t hoarding and black markets bypass it?",
-    "faq4_a": "That’s why caps and vulnerable-first — visible in Open allocation: a 25 kg flour request is capped to baseline; first-come empties the warehouse. Audit trails and checkout matching raise acceptance when fairness is visible.",
+    "faq4_a": "That is why there are limits, and why infants, children, and elderly go first. In the public walkthrough, a 25 kg flour request is cut to the weekly share; first-come empties the warehouse. When fairness is visible at checkout, more people accept the rules.",
     "faq5_q": "Too complex, costly, slow?",
-    "faq5_a": "Staged rollout, not a big bang: paper start → limited digital → situation-picture interface. Public interest, no vendor lock-in.",
+    "faq5_a": "Roll out in stages, not everything at once: paper first, then limited digital tools, then a shared situation view. Built for the public interest — not locked to one vendor.",
     "faq6_q": "Does federalism block every system?",
     "faq6_a": "AMK item 22 calls for nationwide coordination and a BLE situation picture. FoodAllo is an allocation layer with clear lead — not 16 siloed systems and not a parallel authority.",
     "aid_box": "FoodAllo complements aid, it does not replace it — an allocation layer, not a supply chain.",
@@ -694,9 +702,9 @@
     "faq3_q": "Ist das Überwachung?",
     "faq3_a": "Zweckbindung (nur Krise/Vorsorge), Datenminimierung (Anspruch + Kontingent, keine dauerhaften Warenkörbe), getrennte Rollen, Löschfristen. Keine Konsumprofile für Unbeteiligte.",
     "faq4_q": "Umgehen Hamstern und Schwarzmarkt das nicht?",
-    "faq4_a": "Deshalb Obergrenzen und Vulnerable first — sichtbar in der offenen Zuteilung: 25 kg Mehl-Anfrage wird auf Baseline gekappt; wer zuerst kommt, leert das Lager. Prüfpfade und Kassenabgleich erhöhen Akzeptanz, wenn Fairness sichtbar ist.",
+    "faq4_a": "Deshalb gibt es Obergrenzen, und Säuglinge, Kinder und Ältere gehen zuerst. In der öffentlichen Zuteilung siehst du es: 25 kg Mehl-Anfrage werden auf den Wochenanteil gekürzt; wer zuerst kommt, leert das Lager. Wenn Fairness an der Kasse sichtbar ist, steigt die Akzeptanz.",
     "faq5_q": "Zu komplex, teuer, langsam?",
-    "faq5_a": "Stufenweiser Rollout, kein Big Bang: Papierstart → begrenztes Digital → Lagebild-Schnittstelle. Gemeinwohl, kein Vendor-Lock-in.",
+    "faq5_a": "Stufenweise, nicht alles auf einmal: zuerst Papier, dann begrenztes Digital, dann ein gemeinsames Lagebild. Gemeinwohl — nicht an einen Anbieter gebunden.",
     "faq6_q": "Blockiert der Föderalismus jedes System?",
     "faq6_a": "AMK-Punkt 22 fordert bundesweite Koordination und ein BLE-Lagebild. FoodAllo ist eine Zuteilungsschicht mit klarer Führung — nicht 16 Silos und keine Parallelbehörde.",
     "aid_box": "FoodAllo ergänzt Hilfe, ersetzt sie nicht — eine Zuteilungsschicht, keine Lieferkette.",
@@ -767,9 +775,9 @@
     "faq3_q": "N’est-ce pas de la surveillance ?",
     "faq3_a": "Limitation de finalité (crise/préparation seulement), minimisation des données (droit + quota, pas de paniers durables), rôles séparés, délais de suppression. Pas de profils de consommation pour les tiers.",
     "faq4_q": "Le stockage et le marché noir ne contournent-ils pas ?",
-    "faq4_a": "D’où les plafonds et vulnerable-first — visibles dans l’allocation ouverte : une demande de 25 kg de farine est plafonnée ; le premier arrivé vide l’entrepôt.",
+    "faq4_a": "D’où les plafonds, et la priorité aux nourrissons, enfants et personnes âgées. Dans la démonstration publique, une demande de 25 kg de farine est réduite à la part hebdomadaire ; le premier arrivé vide l’entrepôt. Quand l’équité est visible à la caisse, l’acceptation monte.",
     "faq5_q": "Trop complexe, coûteux, lent ?",
-    "faq5_a": "Déploiement par étapes, pas un big bang : papier → numérique limité → interface de situation. Bien commun, pas de vendor lock-in.",
+    "faq5_a": "Déploiement par étapes, pas tout d’un coup : d’abord le papier, puis des outils numériques limités, puis une vue de situation partagée. Bien commun — pas verrouillé à un seul fournisseur.",
     "faq6_q": "Le fédéralisme bloque-t-il tout système ?",
     "faq6_a": "AMK point 22 demande une coordination nationale et un tableau de situation BLE. FoodAllo est une couche d’allocation avec chef de file clair — pas 16 silos ni une autorité parallèle.",
     "aid_box": "FoodAllo complète l’aide, il ne la remplace pas — une couche d’allocation, pas une chaîne d’approvisionnement.",
@@ -840,9 +848,9 @@
     "faq3_q": "¿No es vigilancia?",
     "faq3_a": "Limitación de finalidad (solo crisis/preparación), minimización de datos (derecho + cuota, sin cestas duraderas), roles separados, plazos de borrado. Sin perfiles de consumo para terceros.",
     "faq4_q": "¿El acaparamiento y el mercado negro no lo eluden?",
-    "faq4_a": "Por eso topes y vulnerable-first — visibles en la asignación abierta: una petición de 25 kg de harina se limita a la baseline; quien llega primero vacía el almacén.",
+    "faq4_a": "Por eso hay topes, y bebés, niños y mayores van primero. En la demostración pública, una petición de 25 kg de harina se reduce a la cuota semanal; quien llega primero vacía el almacén. Cuando la equidad se ve en caja, sube la aceptación.",
     "faq5_q": "¿Demasiado complejo, caro, lento?",
-    "faq5_a": "Despliegue por etapas, no un big bang: papel → digital limitado → interfaz de situación. Bien común, sin vendor lock-in.",
+    "faq5_a": "Despliegue por etapas, no todo de golpe: primero papel, luego digital limitado, luego una vista de situación compartida. Bien común — sin quedar atados a un solo proveedor.",
     "faq6_q": "¿El federalismo bloquea todo sistema?",
     "faq6_a": "AMK punto 22 pide coordinación nacional y un cuadro de situación BLE. FoodAllo es una capa de asignación con liderazgo claro — no 16 silos ni una autoridad paralela.",
     "aid_box": "FoodAllo complementa la ayuda, no la sustituye — una capa de asignación, no una cadena de suministro.",
@@ -913,9 +921,9 @@
     "faq3_q": "Чи це не стеження?",
     "faq3_a": "Обмеження мети (лише криза/підготовка), мінімізація даних (право + квота, без тривалих кошиків), розділені ролі, строки видалення. Без споживчих профілів для сторонніх.",
     "faq4_q": "Чи не обійдуть скуповування та чорний ринок?",
-    "faq4_a": "Тому ліміти і vulnerable-first — видно у відкритому розподілі: запит на 25 кг борошна обрізається до базової норми; хто перший — спорожнює склад.",
+    "faq4_a": "Тому є ліміти, а немовлята, діти та літні йдуть першими. У відкритій демонстрації запит на 25 кг борошна зменшується до тижневої частки; хто перший — спорожнює склад. Коли справедливість видно на касі, прийняття зростає.",
     "faq5_q": "Занадто складно, дорого, повільно?",
-    "faq5_a": "Поетапне впровадження, не big bang: папір → обмежений цифровий → інтерфейс ситуаційної картини. Суспільне благо, без vendor lock-in.",
+    "faq5_a": "Поетапно, не все одразу: спочатку папір, потім обмежений цифровий шар, потім спільна ситуаційна картина. Суспільне благо — не прив’язано до одного постачальника.",
     "faq6_q": "Чи блокує федералізм будь-яку систему?",
     "faq6_a": "Пункт AMK 22 вимагає загальнонаціональної координації та ситуаційної картини BLE. FoodAllo — шар розподілу з чітким лідерством — не 16 силоси і не паралельний орган.",
     "aid_box": "FoodAllo доповнює допомогу, не замінює її — шар розподілу, а не ланцюг постачання.",
