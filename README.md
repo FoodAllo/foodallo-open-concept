@@ -7,9 +7,9 @@ FoodAllo complements existing aid and public emergency stockpiles. It does not r
 ## How it works (short)
 
 1. **Need** — Households report food and essentials needs.
-2. **Rules** — Weekly shares by age; vulnerable first when stock is tight; per-household caps stop hoarding.
+2. **Rules** — Weekly shares by age; infants, children, and older people first when stock is tight; per-household caps stop hoarding.
 3. **Channels** — App and web, plus desk, neighbour/proxy, and paper codes for people without phones.
-4. **Visibility** — Same warehouse picture and entitlements for everyone.
+4. **Visibility** — Same shared picture of stock and shortages, and entitlements for everyone.
 
 ## Try it
 
@@ -19,7 +19,7 @@ FoodAllo complements existing aid and public emergency stockpiles. It does not r
 | **Market disrupted** | https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt |
 | **Shortage week** | https://foodallo.github.io/foodallo-open-concept/demo.html |
 | **No smartphone** | https://foodallo.github.io/foodallo-open-concept/analog.html |
-| **Elimination engine** | https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html |
+| **Why other paths fail** | https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html |
 | **For crisis responders** | https://foodallo.github.io/foodallo-open-concept/for-responders.html |
 | **For public authorities** | https://foodallo.github.io/foodallo-open-concept/for-authorities.html |
 
