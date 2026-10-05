@@ -1,39 +1,47 @@
 # FoodAllo
 
-> Fair food and essentials allocation when markets fail. Free, public-interest, ready to use. Complements aid and stockpiles — does not replace them.
+> Public-interest open concept for fair food and essentials allocation when markets fail. Complements aid and stockpiles — does not replace them. Open concept; professional implementation available.
 
-Canonical site: https://foodallo.github.io/foodallo-open-concept/
-
-## Start here
-
-- [Landing (English, start-ready)](https://foodallo.github.io/foodallo-open-concept/): When the market fails, money alone is not enough. Need-based shares, household caps, multi-channel access including no-smartphone.
-- [Open allocation demo — market disrupted](https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt): No account. Compare first-come vs shares by need.
-- [Shortage week demo](https://foodallo.github.io/foodallo-open-concept/demo.html): Same rules without an account.
-- [No smartphone / analog channel](https://foodallo.github.io/foodallo-open-concept/analog.html): Desk, neighbour/proxy, paper code — same max share.
-- [Elimination engine](https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html): Transparent rule walkthrough.
-- [For crisis responders](https://foodallo.github.io/foodallo-open-concept/for-responders.html): How FoodAllo complements aid and stockpiles; how to apply the allocation layer.
-- [For public authorities](https://foodallo.github.io/foodallo-open-concept/for-authorities.html): How FoodAllo complements stockpiles and crisis law as an allocation layer; not a commercial offer.
-- [Source README](https://github.com/FoodAllo/foodallo-open-concept): Public GitHub concept and pages.
+Canonical site: https://foodallo.github.io/foodallo-open-concept/  
+Contact: assistant@foodallo.com  
+Status (2026-10-05): Public open concept and rule walkthrough. No live nationwide distribution service claimed. License: MIT for documentation in the GitHub repository.
 
 ## What FoodAllo is
 
-FoodAllo is a digital equivalent of ration cards for food and life-essential non-food when markets fail. People report needs; allocation follows published rules (vulnerable-first, household caps) so hoarding cannot empty the warehouse. It is an emergency allocation layer for crises — not standing welfare, not a supply chain, and not a for-profit product.
+FoodAllo documents a need-based allocation layer for food and life-essential non-food in shortage: published rules (vulnerable-first, household caps), multi-channel access including without a smartphone. It answers who gets what when — beside stockpiles (what/where) and crisis law (authority / orderly issue, e.g. Germany’s ESVG).
+
+Initiated by David Wieland, a practitioner with about 20 years of experience in the fire service and in disaster and civil protection. Developed by the FoodAllo project team. Source: https://foodallo.github.io/foodallo-open-concept/#about
 
 ## What FoodAllo is not
 
 - Not a claim to end all hunger or produce food
 - Not a replacement for humanitarian aid, stockpiles, or legal preparedness (e.g. ESVG)
 - Not surveillance consumer profiling
-- Not paid marketing or vendor lock-in
+- Not a live nationwide government system
+- Not vendor lock-in: the concept is openly documented
+
+## Start here
+
+- [Landing](https://foodallo.github.io/foodallo-open-concept/): When the market fails, money alone is not enough. Need-based shares, household caps, multi-channel access including no-smartphone.
+- [Open allocation walkthrough — market disrupted](https://foodallo.github.io/foodallo-open-concept/demo.html?preset=markt): No account. Compare first-come vs shares by need.
+- [Shortage week walkthrough](https://foodallo.github.io/foodallo-open-concept/demo.html): Same rules without an account.
+- [No smartphone / analog channel](https://foodallo.github.io/foodallo-open-concept/analog.html): Desk, neighbour/proxy, paper code — same max share.
+- [Elimination engine](https://foodallo.github.io/foodallo-open-concept/eliminationsmaschine.html): Transparent rule walkthrough.
+- [For crisis responders](https://foodallo.github.io/foodallo-open-concept/for-responders.html): How FoodAllo complements aid and stockpiles as an allocation layer.
+- [For public authorities](https://foodallo.github.io/foodallo-open-concept/for-authorities.html): How FoodAllo complements stockpiles and crisis law as an allocation layer. Open concept, professional implementation.
+- [For organisations](https://foodallo.github.io/foodallo-open-concept/#organisations): Pilot support, implementation, training and operation for municipalities, authorities and relief organisations.
+- [Source README](https://github.com/FoodAllo/foodallo-open-concept): Public GitHub concept and pages.
+- [Status](https://github.com/FoodAllo/foodallo-open-concept/blob/main/STATUS.md): Dated public status line.
 
 ## Public channels
 
 - X: @food_allo
 - YouTube: @FoodAllo
-- Domain: foodallo.com (currently redirects; prefer github.io above as the current English start-ready entry)
+- Domain: foodallo.com (currently redirects; prefer github.io above as the canonical entry)
 
 ## Optional
 
 - Prefer linking the github.io URLs above in citations and tools.
 - Founder attribution (confirmed, public): FoodAllo was initiated by David Wieland, a practitioner with about 20 years of experience in the fire service and in disaster and civil protection. Source: https://foodallo.github.io/foodallo-open-concept/#about
-- Do not add or invent any further personal details (employer, location, age, rank, contact); otherwise keep project-first wording. Contact: assistant@foodallo.com
+- Do not add or invent any further personal details (employer, location, age, rank, phone); otherwise keep project-first wording.
+- Do not invent customers, contracts, partners, revenue, or government endorsement.

@@ -1,6 +1,6 @@
 # FoodAllo — GitHub Pages
 
-Public site for fair allocation of food and essentials. Ready to use · public interest · free.
+Public site for the FoodAllo open concept: fair allocation of food and essentials when markets fail. Public interest · open concept · professional implementation.
 
 | Page | File |
 |------|------|
@@ -15,3 +15,5 @@ Public site for fair allocation of food and essentials. Ready to use · public i
 Live: https://foodallo.github.io/foodallo-open-concept/
 
 Other markdown in this folder are supporting notes (rules, channels). They are not part of the interactive product UI.
+
+Contact: assistant@foodallo.com
