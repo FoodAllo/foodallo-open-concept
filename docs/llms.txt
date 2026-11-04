@@ -8,7 +8,7 @@ Status (2026-10-05): Public open concept and rule walkthrough. No live nationwid
 
 ## What FoodAllo is
 
-FoodAllo documents a need-based allocation layer for food and life-essential non-food in shortage: published rules (vulnerable-first, household caps), multi-channel access including without a smartphone. It answers who gets what when — beside stockpiles (what/where) and crisis law (authority / orderly issue, e.g. Germany’s ESVG).
+FoodAllo documents a need-based allocation layer for food and life-essential non-food in shortage: published rules (vulnerable-first, household caps), only stock levels public (no storage locations, no recipient data — security and data protection), multi-channel access including without a smartphone. It answers who gets what when — beside stockpiles (what/where) and crisis law (authority / orderly issue, e.g. Germany’s ESVG).
 
 Initiated by David Wieland, a practitioner with about 20 years of experience in the fire service and in disaster and civil protection. Developed by the FoodAllo project team. Source: https://foodallo.github.io/foodallo-open-concept/#about
 

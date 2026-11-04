@@ -11,7 +11,9 @@ FoodAllo complements existing aid and public emergency stockpiles. It does not r
 1. **Need** — Households report food and essentials needs.
 2. **Rules** — Weekly shares by age; infants, children, and older people first when stock is tight; per-household caps stop hoarding.
 3. **Channels** — App and web, plus desk, neighbour/proxy, and paper codes for people without phones.
-4. **Visibility** — Everyone sees the same picture: what is in stock, what is short, and what each household is entitled to.
+4. **Visibility** — Only stock levels are public: what is in stock and what is short. Storage locations and who receives what are not published, for security and data protection. Recipient data stays internal at the distribution point.
+
+The published rules (shares, caps, priority order) stay public — rules are public, recipients are not.
 
 ## Try the public walkthrough
 

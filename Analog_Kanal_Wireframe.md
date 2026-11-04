@@ -66,7 +66,7 @@ Beschreiben, was eine Person **ohne Smartphone / ohne Netz** (oder mit Proxy) Sc
 └─────────────────────────────────────────────┘
 ```
 
-**A3 · Zuteilung sichtbar machen**
+**A3 · Zuteilung dem Haushalt erklären (nur am Schalter, nicht öffentlich)**
 ```
 ┌─────────────────────────────────────────────┐
 │  Zuteilung (Fair-Modus)                     │
@@ -85,7 +85,7 @@ Beschreiben, was eine Person **ohne Smartphone / ohne Netz** (oder mit Proxy) Sc
 │  Erledigt                                   │
 │  • Eine Karte / Periode gebucht             │
 │  • Beleg: Positionen + Restkontingent       │
-│  • Hinweis Abgabe: LEH-Partnerliste         │
+│  • Hinweis Abgabe: nur auf dem Beleg        │
 │  • Betroffeneninfo (kurz, Papier)           │
 └─────────────────────────────────────────────┘
 ```

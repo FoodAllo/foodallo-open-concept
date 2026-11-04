@@ -25,3 +25,7 @@ https://foodallo.github.io/foodallo-open-concept/
 - Favicon: `favicon.png`
 
 Contact: assistant@foodallo.com
+
+## Data visibility
+
+Only stock levels are public. Storage locations and who receives what are not published (security and data protection); recipient data stays internal at the distribution point.

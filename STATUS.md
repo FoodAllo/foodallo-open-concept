@@ -32,8 +32,13 @@ The concept is openly documented. FoodAllo offers pilot support, implementation,
 
 Initiated by David Wieland, a practitioner with about 20 years of experience in the fire service and in disaster and civil protection. See https://foodallo.github.io/foodallo-open-concept/#about
 
+## Data visibility
+
+Only stock levels are public. Storage locations and who receives what are not published (security and data protection); recipient data stays internal at the distribution point.
+
 ## Changelog (public)
 
 | Date | Note |
 |------|------|
 | 2026-10-05 | Professional polish: clearer status, open-concept / professional-implementation framing, organisations contact, credibility fixes for public pages and README. Branch `professional-polish` (pending merge). |
+| 2026-11-04 | Reduced transparency: only stock levels public; no storage locations, no recipient visibility (security and data protection). |
